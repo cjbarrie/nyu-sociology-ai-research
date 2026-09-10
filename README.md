@@ -1,5 +1,7 @@
 # AI in sociological research — NYU Sociology
 
+[Live presentation](https://cjbarrie.github.io/nyu-sociology-ai-research/) · [Co-presenter editing guide](docs/CO_PRESENTER.md)
+
 **Co-presenters: start with [the editing guide](docs/CO_PRESENTER.md).** It includes setup, Claude prompts and the publication workflow.
 
 The primary presentation is a fourteen-scene browser deck with restrained typography, step-by-step workflow slides, expandable evidence tables, CLI walkthroughs and real retrieval playback. Research PDFs open normally. The PDF deck remains a backup; the ordinary file index is at /workshop/index.html.
