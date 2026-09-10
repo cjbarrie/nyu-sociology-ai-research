@@ -8,7 +8,7 @@ from pathlib import Path
 import json
 P=Path('public/artifacts'); W,H=1280,720
 for n,f in [('Sans','Arial.ttf'),('Bold','Arial Bold.ttf'),('Serif','Georgia.ttf')]:pdfmetrics.registerFont(TTFont(n,'/System/Library/Fonts/Supplemental/'+f))
-C=canvas.Canvas(str(P/'presentation.pdf'),pagesize=(W,H));C.setTitle('AI in sociological research');C.setAuthor('Christopher Barrie')
+C=canvas.Canvas(str(P/'presentation.pdf'),pagesize=(W,H));C.setTitle('AI in sociological research');C.setAuthor('Christopher Barrie and Bart Bonikowski')
 base='https://nyu-sociology-ai-research.chrisjbarrie.chatgpt.site'
 notes=[]
 slide_number=0
@@ -22,7 +22,7 @@ def frame(i,title):
  slide_number+=1
  i=slide_number
  C.setFillColor(HexColor('#f8f6f1'));C.rect(0,0,W,H,fill=1,stroke=0)
- text(70,45,'Christopher Barrie · NYU Sociology',16,color='#555555');text(1130,45,str(i)+'/14',16,color='#555555')
+ text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(i)+'/14',16,color='#555555')
  C.setStrokeColor(HexColor('#cccccc'));C.line(70,H-66,1210,H-66)
  text(70,135,title,40,'Serif');C.setStrokeColor(HexColor('#8c72a6'));C.setLineWidth(2);C.line(70,H-157,160,H-157);C.setLineWidth(1)
 def link(x,y,label,path,size=21):
