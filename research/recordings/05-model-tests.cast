@@ -1,0 +1,10 @@
+{"version": 2, "width": 110, "height": 28, "timestamp": 1788909698, "title": "05-model-tests", "env": {"TERM": "xterm-256color"}}
+[0.0002, "o", "$ node scripts/test-model.mjs\r\n"]
+[0.045, "o", "PASS reproducible populations and trajectories\r\n"]
+[0.0496, "o", "PASS zero-access boundary reproduces baseline at all mechanism values\r\n"]
+[0.0527, "o", "PASS zero-diversion, zero-bridging reproduces baseline human requests\r\n"]
+[0.0533, "o", "PASS bridging adds only chatbot-to-human requests, with matched chatbot use\r\n"]
+[0.0534, "o", "PASS event-level accounting matches all reported totals\r\n"]
+[0.0534, "o", "PASS undirected network has no self-links or duplicate edges\r\n"]
+[0.0534, "o", "PASS invalid probabilities rejected\r\n"]
+[0.0573, "o", "Exit status: 0\r\n"]

@@ -1,0 +1,13 @@
+{"version": 2, "width": 110, "height": 28, "timestamp": 1788909558, "title": "00-source-retrieval", "env": {"TERM": "xterm-256color"}}
+[0.0002, "o", "$ python3 -u scripts/fetch_sources.py\r\n"]
+[0.434, "o", "fang2025: retrieved 277,121 bytes (text/html); SHA256 c95d4f72f96b\r\n"]
+[0.5556, "o", "guingrich2025: retrieved 207,503 bytes (text/html); SHA256 2e221eeb8a7e\r\n"]
+[0.6798, "o", "chandra2025: retrieved 272,035 bytes (text/html); SHA256 6a14120b71f1\r\n"]
+[1.2023, "o", "defreitas2025: retrieved 1,621,106 bytes (application/pdf); SHA256 059601aadc7c\r\n"]
+[2.9053, "o", "meng2021: retrieved 55,401 bytes (text/html); SHA256 e8c1b8ee48ad\r\n"]
+[3.0588, "o", "meng2025: unavailable via direct fetch: HTTP Error 403: Forbidden; see evidence table for web-tool access\r\n"]
+[3.1687, "o", "young2024: retrieved 311,635 bytes (text/html); SHA256 6cf03f3e6222\r\n"]
+[3.7759, "o", "skjuve2021: retrieved 56,258 bytes (text/html); SHA256 ebbedeae1d27\r\n"]
+[4.0509, "o", "ueda2026: retrieved 0 bytes (text/html); SHA256 e3b0c44298fc\r\n"]
+[4.0512, "o", "Saved retrieval manifest. Retrieval alone does not verify a claim.\r\n"]
+[4.0577, "o", "Exit status: 0\r\n"]

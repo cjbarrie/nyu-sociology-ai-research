@@ -1,0 +1,11 @@
+--- v1/model.mjs
++++ v2/model.mjs
+@@ -16,7 +16,7 @@
+  for(const a of world.agents){const u=round.events[a.id];if(u.need>=a.need)continue;
+  totals.needs++;const hasAI=a.access<access;const wantedHuman=u.human<a.human;
+  const usesAI=hasAI&&(wantedHuman?u.sub<substitution:u.adopt<adoption);
+- const bridge=false; // v1: substitution only; no bridge from chatbot to a person.
++ const bridge=usesAI && u.bridge<bridging; // v2: AI may prompt human outreach.
+  const asksHuman=(wantedHuman&&!usesAI)||bridge;
+  const friends=world.neighbors[a.id];const friend=friends[Math.floor(u.friend*friends.length)];
+  const humanResponds=asksHuman&&round.available[friend]<world.agents[friend].availability;

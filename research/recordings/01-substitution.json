@@ -1,0 +1,57 @@
+{
+  "title": "01-substitution",
+  "recorded_at": "2026-09-08T23:17:14.629577+00:00",
+  "elapsed_seconds": 0.278,
+  "command": [
+    "node",
+    "scripts/analyze.mjs",
+    "v1"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0002,
+      "text": "$ node scripts/analyze.mjs v1\n"
+    },
+    {
+      "t": 0.1081,
+      "text": "MODEL v1: 100 people x 100 periods; 80 matched seeds.\n"
+    },
+    {
+      "t": 0.1088,
+      "text": "Illustrative parameters, not estimates. Bands are run-to-run variation.\n"
+    },
+    {
+      "t": 0.1644,
+      "text": "Completed seed 20/80\n"
+    },
+    {
+      "t": 0.1986,
+      "text": "Completed seed 40/80\n"
+    },
+    {
+      "t": 0.2337,
+      "text": "Completed seed 60/80\n"
+    },
+    {
+      "t": 0.2679,
+      "text": "Completed seed 80/80\n"
+    },
+    {
+      "t": 0.2692,
+      "text": "No chatbot: 54.6 human requests / 100 needs\n"
+    },
+    {
+      "t": 0.2692,
+      "text": "Substitution: 28.6 human requests / 100 needs\n"
+    },
+    {
+      "t": 0.2694,
+      "text": "Saved research/v1/results.json, runs.csv and model.mjs\n"
+    },
+    {
+      "t": 0.2775,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

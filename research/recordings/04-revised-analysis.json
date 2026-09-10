@@ -1,0 +1,61 @@
+{
+  "title": "04-revised-analysis",
+  "recorded_at": "2026-09-08T23:21:38.415752+00:00",
+  "elapsed_seconds": 0.457,
+  "command": [
+    "node",
+    "scripts/analyze.mjs",
+    "v2"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0002,
+      "text": "$ node scripts/analyze.mjs v2\n"
+    },
+    {
+      "t": 0.0711,
+      "text": "MODEL v2: 100 people x 100 periods; 80 matched seeds.\n"
+    },
+    {
+      "t": 0.0743,
+      "text": "Illustrative parameters, not estimates. Bands are run-to-run variation.\n"
+    },
+    {
+      "t": 0.1785,
+      "text": "Completed seed 20/80\n"
+    },
+    {
+      "t": 0.2706,
+      "text": "Completed seed 40/80\n"
+    },
+    {
+      "t": 0.3611,
+      "text": "Completed seed 60/80\n"
+    },
+    {
+      "t": 0.448,
+      "text": "Completed seed 80/80\n"
+    },
+    {
+      "t": 0.4516,
+      "text": "No chatbot: 54.6 human requests / 100 needs\n"
+    },
+    {
+      "t": 0.4517,
+      "text": "Substitution: 28.6 human requests / 100 needs\n"
+    },
+    {
+      "t": 0.4517,
+      "text": "Substitution + bridging: 68.3 human requests / 100 needs\n"
+    },
+    {
+      "t": 0.4519,
+      "text": "Saved research/v2/results.json, runs.csv and model.mjs\n"
+    },
+    {
+      "t": 0.4572,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Source and methods review</title><link rel="stylesheet" href="style.css"><main><nav><a href="/workshop/index.html">Workshop files</a> &nbsp; / &nbsp; <a href="/artifacts/presentation.pdf">Slides PDF</a></nav><h1>Source and methods review</h1><p>Two separate agents reviewed the existing research files, then read each other’s objections. Reports below are their actual output from 9 September 2026. Neither agent supplies empirical evidence, and neither has answered the questions on the researcher’s behalf.</p><h2>Source reviewer</h2><p><a href="/artifacts/source-audit.md">Open original report</a></p><pre># Independent source audit
+
+Reviewed 9 September 2026. Materials: the nine-record evidence table, search log, and cached full text of Fang et al., arXiv:2503.17473v2. Other studies below were assessed from the supplied extraction records, not independently reread in full. This is an actual independent review; no researcher replies are represented.
+
+**Claim under review:** AI chatbot use reduces support-seeking from friends and family.
+
+The supplied evidence does not establish that claim. It leaves a plausible research question, with several distinct mechanisms still open.
+
+1. **The prominent randomized study does not randomize amount of use.** Fang et al. assign modality and conversation topic in nine conditions; everyone is asked to use a chatbot. There is no no-chatbot arm. Their duration analysis therefore cannot identify either the effect of chatbot access or the effect of an extra minute of use. Condition-centering duration removes condition means, not selection within conditions. See [design paragraph p5.1](https://arxiv.org/html/2503.17473v2#p5.1), [duration analysis S0.SSx2.p3.1](https://arxiv.org/html/2503.17473v2#S0.SSx2.p3.1), and the authors’ explicit acknowledgment of unmanipulated duration and possible reverse causality at [S0.SSx2.p6.1](https://arxiv.org/html/2503.17473v2#S0.SSx2.p6.1).
+
+2. **Its socialization outcome is adjacent to the proposed outcome.** The study uses the six-item Lubben Social Network Scale. That is not an episode-level record of initiating a request for help. A person can retain a network yet stop approaching it about particular problems. See [Methods, Socialization, Sx2.SSx1.SSSx8.p3.1](https://arxiv.org/html/2503.17473v2#Sx2.SSx1.SSSx8.p3.1). Preserve the instrument name in the evidence table; “socialization” alone hides this measurement decision.
+
+3. **Null condition effects are not evidence of no displacement.** The [v2 abstract](https://arxiv.org/html/2503.17473v2#abstract1.1) reports no significant assigned-condition effects. Those contrasts concern modes/topics, not access versus no access. Nor does nonsignificance demonstrate equivalence. The version should remain explicit when comparing the paper with contemporaneous reporting.
+
+4. **Relief, preferences, and behavior must remain separate.** In the supplied records, De Freitas et al. study loneliness; Young et al. evaluate supplied responses; Meng et al. study support-message production. Each could motivate a mechanism. None, as extracted, demonstrates fewer requests to an existing friend. The evidence table should not count them as three replications of displacement.
+
+5. **The collection cannot establish a literature-wide absence.** The search log describes a purposive teaching sample, selected partly for readability, with no subscription-database search. Two records rely on abstracts. Say “none of the studies retained here directly estimates this outcome,” rather than “no study has tested it.” Ueda’s professional-help attitudes remain a boundary example, outside the main synthesis.
+
+## Questions that change the next research decision
+
+- Is the outcome fewer requests in total, or less human contact *given an episode of need*? If chatbot use changes perceived need, restricting analysis to post-treatment need episodes may select different people or episodes across arms. Which quantity do you want to estimate?
+- What observation would count against your substitution argument? For example, would increased friend contact within 24 hours after chatbot use support a bridging account, and would your data distinguish a chatbot-initiated suggestion from a contact that was already planned?
+
+I would retain substitution as a hypothesis, specify those outcomes before analysis, and collect timing and sequence information. The present collection supports that design work; it does not supply the causal conclusion.
+
+## Cross-check of the methods review
+
+I read the independent methods agent’s proposed three-arm pilot. I agree with its decision to make a fixed-window count of requests the primary outcome and treat need-conditional rates as secondary. That answers my concern about selecting on needs reported after assignment. Its offer-versus-usual-access interpretation also avoids claiming to estimate an effect of universal chatbot availability.
+
+One issue remains: the proposed bridge feature is bundled with whatever additional attention, wording, or reminders it entails. Comparing the two chatbot offers identifies the effect of that feature package, not necessarily a psychological bridging mechanism. The protocol should record exactly what differs and distinguish an intervention effect from an explanation of how it works. Sequence diaries can help describe possible pathways, but they do not resolve mediator confounding. I would ask the researcher whether the immediate goal is to evaluate a useful feature or adjudicate the bridging mechanism; the latter requires further design work.
+</pre><h2>Methods reviewer</h2><p><a href="/artifacts/methods-audit.md">Open original report</a></p><pre># Methods audit: a study of chatbot use and informal support-seeking
+
+Independent methods review, 9 September 2026, of the evidence table and version-two memo. No researcher answers are represented.
+
+## The first question I would ask
+
+When you say that chatbots displace human support, do you mean fewer requests for help, fewer successful conversations, or weaker relationships? Those claims require different outcomes. I suggest starting with requests to friends and family; the relationship claim needs longer follow-up.
+
+The current memo correctly separates these outcomes, but its proposed bridge-oriented chatbot experiment would not identify the overall effect of chatbot availability. It would estimate the effect of a particular design intervention relative to its comparator. That distinction should survive into the title and abstract.
+
+## A useful research product
+
+Replace the simulation in the main demonstration with a short study protocol and an accompanying diary instrument. The audience can inspect the primary outcome, assignment scheme, and analysis choices. A coauthor can then challenge an actual decision rather than a result mechanically generated by a simulation.
+
+A feasible pilot would recruit adults for a baseline diary week followed by four follow-up weeks. Randomly assign participants to:
+
+1. Their usual access to existing services.
+2. An offer of access to a specified chatbot, with standardized onboarding.
+3. The same offer and onboarding, with a feature encouraging contact with a friend or family member when appropriate.
+
+This estimates effects of these offers in a setting where other chatbots remain available. It does not estimate the effect of eliminating all chatbot access. Record outside use and contamination; do not exclude participants because they do not use the assigned service. This pilot still needs a precision target.
+
+## Outcome and estimands
+
+Define the primary outcome as the number of distinct, self-reported requests for emotional support or personal advice initiated toward an existing friend or family member during the fixed four-week follow-up. Count a request whether or not the recipient responds. Distinguish a new episode from repeated messages about one request in the diary instructions.
+
+The primary contrast is the mean count under assignment to the standard offer minus the mean count under usual access: an intention-to-treat effect of the offer. The second contrast compares the bridge-feature offer with the standard offer. Prespecify the testing priority or multiplicity adjustment. Report mean differences with uncertainty; a prespecified adjustment for baseline outreach can improve precision.
+
+Retain zero-request participants. A missing diary is not a zero. Report completion by assignment, specify a missing-data strategy, and assess sensitivity to differential nonresponse. Do not control for post-assignment chatbot minutes, loneliness, or reported needs in the primary analysis. Each may be affected by assignment.
+
+A separate episode diary can describe the order of chatbot and human contact, whether the person received a response, and perceived usefulness. Rates conditional on reported needs are secondary because treatment might alter which needs arise or get reported. Temporal sequences alone do not establish mediation.
+
+## Questions that should change the protocol
+
+- Is the substantive target reduced outreach, or harm? Fewer requests could reflect relief, avoidance, or both. Measure wellbeing separately.
+- Which population matters: current companion users, new users, or adults generally? Recruitment determines the interpretation.
+- Are self-reports sufficient? Contact metadata cannot establish supportive content.
+- Could friends join together? Spillovers would challenge the individual assignment interpretation.
+- What difference would matter substantively? That answer should determine the precision target.
+
+The evidence table&#x27;s Fang entry describes randomized modes and topics alongside self-selected use intensity. A regression on minutes does not inherit the experiment&#x27;s randomization. None of the listed outcome summaries should be relabeled as a direct count of informal support requests without inspecting its instrument.
+
+## Cross-check with the source auditor
+
+I agree with the source auditor’s denominator objection. Conditioning on post-assignment need episodes can select different episodes across arms if assignment changes experienced or reported need. Keep the fixed-window person-level count primary; episode sequences remain informative secondary descriptions. I also agree that Fang’s mode/topic contrasts cannot answer an access question. Our offer contrast has a different, explicitly limited target; the bridge contrast tests a feature, not chatbots generally.
+</pre></main></html>

@@ -1,0 +1,13 @@
+{"version": 2, "width": 110, "height": 28, "timestamp": 1788909697, "title": "04-revised-analysis", "env": {"TERM": "xterm-256color"}}
+[0.0002, "o", "$ node scripts/analyze.mjs v2\r\n"]
+[0.0711, "o", "MODEL v2: 100 people x 100 periods; 80 matched seeds.\r\n"]
+[0.0743, "o", "Illustrative parameters, not estimates. Bands are run-to-run variation.\r\n"]
+[0.1785, "o", "Completed seed 20/80\r\n"]
+[0.2706, "o", "Completed seed 40/80\r\n"]
+[0.3611, "o", "Completed seed 60/80\r\n"]
+[0.448, "o", "Completed seed 80/80\r\n"]
+[0.4516, "o", "No chatbot: 54.6 human requests / 100 needs\r\n"]
+[0.4517, "o", "Substitution: 28.6 human requests / 100 needs\r\n"]
+[0.4517, "o", "Substitution + bridging: 68.3 human requests / 100 needs\r\n"]
+[0.4519, "o", "Saved research/v2/results.json, runs.csv and model.mjs\r\n"]
+[0.4572, "o", "Exit status: 0\r\n"]

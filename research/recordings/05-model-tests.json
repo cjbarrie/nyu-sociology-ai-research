@@ -1,0 +1,48 @@
+{
+  "title": "05-model-tests",
+  "recorded_at": "2026-09-08T23:21:38.508561+00:00",
+  "elapsed_seconds": 0.059,
+  "command": [
+    "node",
+    "scripts/test-model.mjs"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0002,
+      "text": "$ node scripts/test-model.mjs\n"
+    },
+    {
+      "t": 0.045,
+      "text": "PASS reproducible populations and trajectories\n"
+    },
+    {
+      "t": 0.0496,
+      "text": "PASS zero-access boundary reproduces baseline at all mechanism values\n"
+    },
+    {
+      "t": 0.0527,
+      "text": "PASS zero-diversion, zero-bridging reproduces baseline human requests\n"
+    },
+    {
+      "t": 0.0533,
+      "text": "PASS bridging adds only chatbot-to-human requests, with matched chatbot use\n"
+    },
+    {
+      "t": 0.0534,
+      "text": "PASS event-level accounting matches all reported totals\n"
+    },
+    {
+      "t": 0.0534,
+      "text": "PASS undirected network has no self-links or duplicate edges\n"
+    },
+    {
+      "t": 0.0534,
+      "text": "PASS invalid probabilities rejected\n"
+    },
+    {
+      "t": 0.0573,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

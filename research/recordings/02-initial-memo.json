@@ -1,0 +1,1992 @@
+{
+  "title": "02-initial-memo",
+  "recorded_at": "2026-09-08T23:21:17.394125+00:00",
+  "elapsed_seconds": 3.305,
+  "command": [
+    "latexmk",
+    "-pdf",
+    "-interaction=nonstopmode",
+    "-halt-on-error",
+    "-cd",
+    "research/v1/memo.tex"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0002,
+      "text": "$ latexmk -pdf -interaction=nonstopmode -halt-on-error -cd research/v1/memo.tex\n"
+    },
+    {
+      "t": 0.1099,
+      "text": "Rc files read:\n"
+    },
+    {
+      "t": 0.11,
+      "text": "  NONE\n"
+    },
+    {
+      "t": 0.11,
+      "text": "Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.\n"
+    },
+    {
+      "t": 0.11,
+      "text": "Latexmk: Changing directory to 'research/v1/'\n"
+    },
+    {
+      "t": 0.1287,
+      "text": "No existing .aux file, so I'll make a simple one, and require run of *latex.\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "Latexmk: applying rule 'pdflatex'...\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "Rule 'pdflatex':  Reasons for rerun\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "Category 'other':\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "  Rerun of 'pdflatex' forced or previously required:\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "    Reason or flag: 'Initial setup'\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "\n"
+    },
+    {
+      "t": 0.1288,
+      "text": "------------\n"
+    },
+    {
+      "t": 0.1289,
+      "text": "Run number 1 of rule 'pdflatex'\n"
+    },
+    {
+      "t": 0.1289,
+      "text": "------------\n"
+    },
+    {
+      "t": 0.1289,
+      "text": "------------\n"
+    },
+    {
+      "t": 0.1289,
+      "text": "Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  \"memo.tex\"'\n"
+    },
+    {
+      "t": 0.1289,
+      "text": "------------\n"
+    },
+    {
+      "t": 0.2612,
+      "text": "This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)\n"
+    },
+    {
+      "t": 0.2613,
+      "text": " restricted \\write18 enabled.\n"
+    },
+    {
+      "t": 0.3339,
+      "text": "entering extended mode\n"
+    },
+    {
+      "t": 0.3382,
+      "text": "(./memo.tex\n"
+    },
+    {
+      "t": 0.3382,
+      "text": "LaTeX2e <2023-11-01> patch level 1\n"
+    },
+    {
+      "t": 0.3383,
+      "text": "L3 programming layer <2024-02-20>\n"
+    },
+    {
+      "t": 0.3425,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls\n"
+    },
+    {
+      "t": 0.3426,
+      "text": "Document Class: article 2023/05/17 v1.4n Standard LaTeX document class\n"
+    },
+    {
+      "t": 0.3502,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo))\n"
+    },
+    {
+      "t": 0.3521,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty\n"
+    },
+    {
+      "t": 0.3551,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty)\n"
+    },
+    {
+      "t": 0.3565,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty\n"
+    },
+    {
+      "t": 0.3677,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty)))\n"
+    },
+    {
+      "t": 0.3733,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty)\n"
+    },
+    {
+      "t": 0.3759,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty)\n"
+    },
+    {
+      "t": 0.3789,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty)\n"
+    },
+    {
+      "t": 0.3816,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty\n"
+    },
+    {
+      "t": 0.3896,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty)\n"
+    },
+    {
+      "t": 0.3924,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def)\n"
+    },
+    {
+      "t": 0.4132,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg))\n"
+    },
+    {
+      "t": 0.4199,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty\n"
+    },
+    {
+      "t": 0.4207,
+      "text": "For additional information on amsmath, use the `?' option.\n"
+    },
+    {
+      "t": 0.425,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty\n"
+    },
+    {
+      "t": 0.43,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty))\n"
+    },
+    {
+      "t": 0.435,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n"
+    },
+    {
+      "t": 0.448,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty))\n"
+    },
+    {
+      "t": 0.454,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty\n"
+    },
+    {
+      "t": 0.4629,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty))\n"
+    },
+    {
+      "t": 0.467,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty\n"
+    },
+    {
+      "t": 0.4729,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty\n"
+    },
+    {
+      "t": 0.476,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty)\n"
+    },
+    {
+      "t": 0.4821,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)\n"
+    },
+    {
+      "t": 0.4902,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def)))\n"
+    },
+    {
+      "t": 0.4963,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty)\n"
+    },
+    {
+      "t": 0.5075,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty\n"
+    },
+    {
+      "t": 0.514,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg)\n"
+    },
+    {
+      "t": 0.5192,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))\n"
+    },
+    {
+      "t": 0.5244,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)\n"
+    },
+    {
+      "t": 0.5359,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty)\n"
+    },
+    {
+      "t": 0.5421,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty\n"
+    },
+    {
+      "t": 0.547,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)\n"
+    },
+    {
+      "t": 0.5492,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)\n"
+    },
+    {
+      "t": 0.554,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty\n"
+    },
+    {
+      "t": 0.5621,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)\n"
+    },
+    {
+      "t": 0.5639,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty\n"
+    },
+    {
+      "t": 0.5674,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))\n"
+    },
+    {
+      "t": 0.5731,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty)\n"
+    },
+    {
+      "t": 0.5746,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty)\n"
+    },
+    {
+      "t": 0.5759,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty\n"
+    },
+    {
+      "t": 0.5783,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty)\n"
+    },
+    {
+      "t": 0.5784,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s\n"
+    },
+    {
+      "t": 0.5886,
+      "text": "ty (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))\n"
+    },
+    {
+      "t": 0.5917,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def)\n"
+    },
+    {
+      "t": 0.5996,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty)\n"
+    },
+    {
+      "t": 0.6149,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def)\n"
+    },
+    {
+      "t": 0.6174,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty)\n"
+    },
+    {
+      "t": 0.6193,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty\n"
+    },
+    {
+      "t": 0.6253,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))\n"
+    },
+    {
+      "t": 0.6325,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty))\n"
+    },
+    {
+      "t": 0.6348,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def\n"
+    },
+    {
+      "t": 0.6383,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty)\n"
+    },
+    {
+      "t": 0.6383,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty\n"
+    },
+    {
+      "t": 0.6418,
+      "text": "\n"
+    },
+    {
+      "t": 0.6418,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty\n"
+    },
+    {
+      "t": 0.6554,
+      "text": "))) (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd)\n"
+    },
+    {
+      "t": 0.6577,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)\n"
+    },
+    {
+      "t": 0.6609,
+      "text": "(./memo.aux)\n"
+    },
+    {
+      "t": 0.6609,
+      "text": "*geometry* driver: auto-detecting\n"
+    },
+    {
+      "t": 0.6609,
+      "text": "*geometry* detected driver: pdftex\n"
+    },
+    {
+      "t": 0.6681,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg)\n"
+    },
+    {
+      "t": 0.6704,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\n"
+    },
+    {
+      "t": 0.6704,
+      "text": "[Loading MPS to PDF converter (version 2006.09.02).]\n"
+    },
+    {
+      "t": 0.6737,
+      "text": ") (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\n"
+    },
+    {
+      "t": 0.6944,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "Package natbib Warning: Citation `fang2025' on page 1 undefined on input line 1\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "9.\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "\n"
+    },
+    {
+      "t": 0.6945,
+      "text": "Package natbib Warning: Citation `guingrich2025' on page 1 undefined on input l\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "ine 19.\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "Package natbib Warning: Citation `defreitas2025' on page 1 undefined on input l\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "ine 21.\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "Package natbib Warning: Citation `chandra2025' on page 1 undefined on input lin\n"
+    },
+    {
+      "t": 0.6946,
+      "text": "e 21.\n"
+    },
+    {
+      "t": 0.6947,
+      "text": "\n"
+    },
+    {
+      "t": 0.8279,
+      "text": "[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l\n"
+    },
+    {
+      "t": 0.8411,
+      "text": "ocal/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]\n"
+    },
+    {
+      "t": 0.8469,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd)\n"
+    },
+    {
+      "t": 0.8502,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd)\n"
+    },
+    {
+      "t": 0.8532,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd)\n"
+    },
+    {
+      "t": 0.8574,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd)\n"
+    },
+    {
+      "t": 0.8626,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd)\n"
+    },
+    {
+      "t": 0.8646,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg)\n"
+    },
+    {
+      "t": 0.866,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd)\n"
+    },
+    {
+      "t": 0.8685,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg) [2{/usr/loc\n"
+    },
+    {
+      "t": 0.8689,
+      "text": "al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive\n"
+    },
+    {
+      "t": 0.8696,
+      "text": "/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-di\n"
+    },
+    {
+      "t": 0.8699,
+      "text": "st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-dist/fonts/e\n"
+    },
+    {
+      "t": 0.884,
+      "text": "nc/dvips/lm/lm-mathsy.enc}] [3 <./requests.pdf>]\n"
+    },
+    {
+      "t": 0.884,
+      "text": "\n"
+    },
+    {
+      "t": 0.884,
+      "text": "Package natbib Warning: Citation `skjuve2021' on page 4 undefined on input line\n"
+    },
+    {
+      "t": 0.8841,
+      "text": " 58.\n"
+    },
+    {
+      "t": 0.8841,
+      "text": "\n"
+    },
+    {
+      "t": 0.8841,
+      "text": "\n"
+    },
+    {
+      "t": 0.8841,
+      "text": "Package natbib Warning: Citation `meng2025' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 0.8841,
+      "text": "8.\n"
+    },
+    {
+      "t": 0.8841,
+      "text": "\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "Package natbib Warning: Citation `young2024' on page 4 undefined on input line \n"
+    },
+    {
+      "t": 0.8842,
+      "text": "58.\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "Package natbib Warning: Citation `meng2021' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 0.8842,
+      "text": "8.\n"
+    },
+    {
+      "t": 0.8843,
+      "text": "\n"
+    },
+    {
+      "t": 0.8843,
+      "text": "\n"
+    },
+    {
+      "t": 0.8843,
+      "text": "Package natbib Warning: Citation `ueda2026' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 0.8843,
+      "text": "8.\n"
+    },
+    {
+      "t": 0.8843,
+      "text": "\n"
+    },
+    {
+      "t": 0.8858,
+      "text": "[4]\n"
+    },
+    {
+      "t": 0.8858,
+      "text": "No file memo.bbl.\n"
+    },
+    {
+      "t": 0.8858,
+      "text": "\n"
+    },
+    {
+      "t": 0.8859,
+      "text": "Package natbib Warning: There were undefined citations.\n"
+    },
+    {
+      "t": 0.8859,
+      "text": "\n"
+    },
+    {
+      "t": 0.8881,
+      "text": "(./memo.aux)\n"
+    },
+    {
+      "t": 0.8882,
+      "text": "\n"
+    },
+    {
+      "t": 0.8882,
+      "text": "Package rerunfilecheck Warning: File `memo.out' has changed.\n"
+    },
+    {
+      "t": 0.8882,
+      "text": "(rerunfilecheck)                Rerun to get outlines right\n"
+    },
+    {
+      "t": 0.8882,
+      "text": "(rerunfilecheck)                or use package `bookmark'.\n"
+    },
+    {
+      "t": 0.8882,
+      "text": "\n"
+    },
+    {
+      "t": 0.8927,
+      "text": " )</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo\n"
+    },
+    {
+      "t": 0.8983,
+      "text": "cal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv\n"
+    },
+    {
+      "t": 0.8997,
+      "text": "e/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/tex\n"
+    },
+    {
+      "t": 0.901,
+      "text": "mf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fo\n"
+    },
+    {
+      "t": 0.9023,
+      "text": "nts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p\n"
+    },
+    {
+      "t": 0.9072,
+      "text": "ublic/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lm\n"
+    },
+    {
+      "t": 0.9154,
+      "text": "r12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></us\n"
+    },
+    {
+      "t": 0.9189,
+      "text": "r/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/te\n"
+    },
+    {
+      "t": 0.9207,
+      "text": "xlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024\n"
+    },
+    {
+      "t": 0.932,
+      "text": "/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>\n"
+    },
+    {
+      "t": 0.932,
+      "text": "Output written on memo.pdf (4 pages, 196828 bytes).\n"
+    },
+    {
+      "t": 0.932,
+      "text": "Transcript written on memo.log.\n"
+    },
+    {
+      "t": 0.9595,
+      "text": "Latexmk: Missing bbl file 'memo.bbl' in following:\n"
+    },
+    {
+      "t": 0.9596,
+      "text": " No file memo.bbl.\n"
+    },
+    {
+      "t": 0.9648,
+      "text": "Latexmk: Getting log file 'memo.log'\n"
+    },
+    {
+      "t": 0.965,
+      "text": "Latexmk: Examining 'memo.fls'\n"
+    },
+    {
+      "t": 0.965,
+      "text": "Latexmk: Examining 'memo.log'\n"
+    },
+    {
+      "t": 0.965,
+      "text": "Latexmk: References changed.\n"
+    },
+    {
+      "t": 0.965,
+      "text": "Latexmk: Log file says output to 'memo.pdf'\n"
+    },
+    {
+      "t": 1.2366,
+      "text": "Latexmk: Found bibliography file(s):\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "  ../references.bib\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "Latexmk: applying rule 'bibtex memo'...\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "Rule 'bibtex memo':  Reasons for rerun\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "Category 'other':\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "  Rerun of 'bibtex memo' forced or previously required:\n"
+    },
+    {
+      "t": 1.2367,
+      "text": "    Reason or flag: 'Initial set up of rule'\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "Run number 1 of rule 'bibtex memo'\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "Running 'bibtex  \"memo.aux\"'\n"
+    },
+    {
+      "t": 1.2368,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.3955,
+      "text": "This is BibTeX, Version 0.99d (TeX Live 2024)\n"
+    },
+    {
+      "t": 1.3956,
+      "text": "The top-level auxiliary file: memo.aux\n"
+    },
+    {
+      "t": 1.3956,
+      "text": "The style file: apalike.bst\n"
+    },
+    {
+      "t": 1.3956,
+      "text": "Database file #1: ../references.bib\n"
+    },
+    {
+      "t": 1.3983,
+      "text": "Latexmk: applying rule 'pdflatex'...\n"
+    },
+    {
+      "t": 1.3983,
+      "text": "Rule 'pdflatex':  Reasons for rerun\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "Changed files or newly in use/created:\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "  memo.aux\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "  memo.bbl\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "  memo.out\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "Run number 2 of rule 'pdflatex'\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.3984,
+      "text": "Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  \"memo.tex\"'\n"
+    },
+    {
+      "t": 1.3985,
+      "text": "------------\n"
+    },
+    {
+      "t": 1.5143,
+      "text": "This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)\n"
+    },
+    {
+      "t": 1.5143,
+      "text": " restricted \\write18 enabled.\n"
+    },
+    {
+      "t": 1.5767,
+      "text": "entering extended mode\n"
+    },
+    {
+      "t": 1.5779,
+      "text": "(./memo.tex\n"
+    },
+    {
+      "t": 1.578,
+      "text": "LaTeX2e <2023-11-01> patch level 1\n"
+    },
+    {
+      "t": 1.578,
+      "text": "L3 programming layer <2024-02-20>\n"
+    },
+    {
+      "t": 1.5789,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls\n"
+    },
+    {
+      "t": 1.5789,
+      "text": "Document Class: article 2023/05/17 v1.4n Standard LaTeX document class\n"
+    },
+    {
+      "t": 1.5822,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo))\n"
+    },
+    {
+      "t": 1.5831,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty\n"
+    },
+    {
+      "t": 1.5847,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty)\n"
+    },
+    {
+      "t": 1.5891,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty\n"
+    },
+    {
+      "t": 1.5995,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty)))\n"
+    },
+    {
+      "t": 1.6011,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty)\n"
+    },
+    {
+      "t": 1.6023,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty)\n"
+    },
+    {
+      "t": 1.6041,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty)\n"
+    },
+    {
+      "t": 1.6092,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty\n"
+    },
+    {
+      "t": 1.6163,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty)\n"
+    },
+    {
+      "t": 1.6186,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def)\n"
+    },
+    {
+      "t": 1.635,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg))\n"
+    },
+    {
+      "t": 1.6366,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty\n"
+    },
+    {
+      "t": 1.6366,
+      "text": "For additional information on amsmath, use the `?' option.\n"
+    },
+    {
+      "t": 1.6375,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty\n"
+    },
+    {
+      "t": 1.6394,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty))\n"
+    },
+    {
+      "t": 1.6406,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n"
+    },
+    {
+      "t": 1.646,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty))\n"
+    },
+    {
+      "t": 1.647,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty\n"
+    },
+    {
+      "t": 1.6514,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty))\n"
+    },
+    {
+      "t": 1.6528,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty\n"
+    },
+    {
+      "t": 1.6538,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty\n"
+    },
+    {
+      "t": 1.6551,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty)\n"
+    },
+    {
+      "t": 1.6561,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)\n"
+    },
+    {
+      "t": 1.6614,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def)))\n"
+    },
+    {
+      "t": 1.663,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty)\n"
+    },
+    {
+      "t": 1.6702,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty\n"
+    },
+    {
+      "t": 1.6727,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg)\n"
+    },
+    {
+      "t": 1.6758,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))\n"
+    },
+    {
+      "t": 1.6779,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)\n"
+    },
+    {
+      "t": 1.69,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty)\n"
+    },
+    {
+      "t": 1.6949,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty\n"
+    },
+    {
+      "t": 1.6966,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)\n"
+    },
+    {
+      "t": 1.6981,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)\n"
+    },
+    {
+      "t": 1.6991,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty\n"
+    },
+    {
+      "t": 1.7009,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)\n"
+    },
+    {
+      "t": 1.7021,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty\n"
+    },
+    {
+      "t": 1.7043,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))\n"
+    },
+    {
+      "t": 1.7079,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty)\n"
+    },
+    {
+      "t": 1.7095,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty)\n"
+    },
+    {
+      "t": 1.7107,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty\n"
+    },
+    {
+      "t": 1.7129,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty)\n"
+    },
+    {
+      "t": 1.7129,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s\n"
+    },
+    {
+      "t": 1.722,
+      "text": "ty (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))\n"
+    },
+    {
+      "t": 1.725,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def)\n"
+    },
+    {
+      "t": 1.7307,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty)\n"
+    },
+    {
+      "t": 1.7449,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def)\n"
+    },
+    {
+      "t": 1.747,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty)\n"
+    },
+    {
+      "t": 1.7489,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty\n"
+    },
+    {
+      "t": 1.7547,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))\n"
+    },
+    {
+      "t": 1.7617,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty))\n"
+    },
+    {
+      "t": 1.7637,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def\n"
+    },
+    {
+      "t": 1.7691,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty)\n"
+    },
+    {
+      "t": 1.7692,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty\n"
+    },
+    {
+      "t": 1.773,
+      "text": "\n"
+    },
+    {
+      "t": 1.7731,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty\n"
+    },
+    {
+      "t": 1.7834,
+      "text": "))) (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd)\n"
+    },
+    {
+      "t": 1.7893,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)\n"
+    },
+    {
+      "t": 1.7928,
+      "text": "(./memo.aux)\n"
+    },
+    {
+      "t": 1.7929,
+      "text": "*geometry* driver: auto-detecting\n"
+    },
+    {
+      "t": 1.7929,
+      "text": "*geometry* detected driver: pdftex\n"
+    },
+    {
+      "t": 1.7985,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg)\n"
+    },
+    {
+      "t": 1.8005,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\n"
+    },
+    {
+      "t": 1.8005,
+      "text": "[Loading MPS to PDF converter (version 2006.09.02).]\n"
+    },
+    {
+      "t": 1.8049,
+      "text": ") (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\n"
+    },
+    {
+      "t": 1.8097,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))\n"
+    },
+    {
+      "t": 1.8248,
+      "text": "(./memo.out) (./memo.out)\n"
+    },
+    {
+      "t": 1.8259,
+      "text": "\n"
+    },
+    {
+      "t": 1.826,
+      "text": "Package natbib Warning: Citation `fang2025' on page 1 undefined on input line 1\n"
+    },
+    {
+      "t": 1.826,
+      "text": "9.\n"
+    },
+    {
+      "t": 1.826,
+      "text": "\n"
+    },
+    {
+      "t": 1.826,
+      "text": "\n"
+    },
+    {
+      "t": 1.826,
+      "text": "Package natbib Warning: Citation `guingrich2025' on page 1 undefined on input l\n"
+    },
+    {
+      "t": 1.826,
+      "text": "ine 19.\n"
+    },
+    {
+      "t": 1.826,
+      "text": "\n"
+    },
+    {
+      "t": 1.826,
+      "text": "\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "Package natbib Warning: Citation `defreitas2025' on page 1 undefined on input l\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "ine 21.\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "Package natbib Warning: Citation `chandra2025' on page 1 undefined on input lin\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "e 21.\n"
+    },
+    {
+      "t": 1.8261,
+      "text": "\n"
+    },
+    {
+      "t": 1.9521,
+      "text": "[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l\n"
+    },
+    {
+      "t": 1.962,
+      "text": "ocal/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]\n"
+    },
+    {
+      "t": 1.9727,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd)\n"
+    },
+    {
+      "t": 1.9745,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd)\n"
+    },
+    {
+      "t": 1.976,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd)\n"
+    },
+    {
+      "t": 1.9773,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd)\n"
+    },
+    {
+      "t": 1.9779,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd)\n"
+    },
+    {
+      "t": 1.9787,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg)\n"
+    },
+    {
+      "t": 1.9794,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd)\n"
+    },
+    {
+      "t": 1.9812,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg) [2{/usr/loc\n"
+    },
+    {
+      "t": 1.9814,
+      "text": "al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive\n"
+    },
+    {
+      "t": 1.9818,
+      "text": "/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-di\n"
+    },
+    {
+      "t": 1.9819,
+      "text": "st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-dist/fonts/e\n"
+    },
+    {
+      "t": 1.9938,
+      "text": "nc/dvips/lm/lm-mathsy.enc}] [3 <./requests.pdf>]\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "Package natbib Warning: Citation `skjuve2021' on page 4 undefined on input line\n"
+    },
+    {
+      "t": 1.9939,
+      "text": " 58.\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "Package natbib Warning: Citation `meng2025' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 1.9939,
+      "text": "8.\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.994,
+      "text": "Package natbib Warning: Citation `young2024' on page 4 undefined on input line \n"
+    },
+    {
+      "t": 1.994,
+      "text": "58.\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.994,
+      "text": "Package natbib Warning: Citation `meng2021' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 1.994,
+      "text": "8.\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.994,
+      "text": "\n"
+    },
+    {
+      "t": 1.9941,
+      "text": "Package natbib Warning: Citation `ueda2026' on page 4 undefined on input line 5\n"
+    },
+    {
+      "t": 1.9941,
+      "text": "8.\n"
+    },
+    {
+      "t": 1.9941,
+      "text": "\n"
+    },
+    {
+      "t": 2.0045,
+      "text": "[4] (./memo.bbl)\n"
+    },
+    {
+      "t": 2.0045,
+      "text": "\n"
+    },
+    {
+      "t": 2.0046,
+      "text": "Package natbib Warning: There were undefined citations.\n"
+    },
+    {
+      "t": 2.0046,
+      "text": "\n"
+    },
+    {
+      "t": 2.0061,
+      "text": "[5] (./memo.aux\n"
+    },
+    {
+      "t": 2.0062,
+      "text": "\n"
+    },
+    {
+      "t": 2.0062,
+      "text": "Package natbib Warning: Citation(s) may have changed.\n"
+    },
+    {
+      "t": 2.0062,
+      "text": "(natbib)                Rerun to get citations correct.\n"
+    },
+    {
+      "t": 2.0062,
+      "text": "\n"
+    },
+    {
+      "t": 2.0103,
+      "text": ") )</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l\n"
+    },
+    {
+      "t": 2.0138,
+      "text": "ocal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli\n"
+    },
+    {
+      "t": 2.0146,
+      "text": "ve/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/te\n"
+    },
+    {
+      "t": 2.0155,
+      "text": "xmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/f\n"
+    },
+    {
+      "t": 2.0166,
+      "text": "onts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/\n"
+    },
+    {
+      "t": 2.021,
+      "text": "public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l\n"
+    },
+    {
+      "t": 2.0281,
+      "text": "mr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></u\n"
+    },
+    {
+      "t": 2.0313,
+      "text": "sr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/t\n"
+    },
+    {
+      "t": 2.0351,
+      "text": "exlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/202\n"
+    },
+    {
+      "t": 2.0463,
+      "text": "4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>\n"
+    },
+    {
+      "t": 2.0464,
+      "text": "Output written on memo.pdf (5 pages, 204954 bytes).\n"
+    },
+    {
+      "t": 2.0464,
+      "text": "Transcript written on memo.log.\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: Getting log file 'memo.log'\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: Examining 'memo.fls'\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: Examining 'memo.log'\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: Found input bbl file 'memo.bbl'\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: References changed.\n"
+    },
+    {
+      "t": 2.0798,
+      "text": "Latexmk: Log file says output to 'memo.pdf'\n"
+    },
+    {
+      "t": 2.307,
+      "text": "Latexmk: Found bibliography file(s):\n"
+    },
+    {
+      "t": 2.3099,
+      "text": "  ../references.bib\n"
+    },
+    {
+      "t": 2.3099,
+      "text": "Latexmk: applying rule 'bibtex memo'...\n"
+    },
+    {
+      "t": 2.3099,
+      "text": "Rule 'bibtex memo':  Reasons for rerun\n"
+    },
+    {
+      "t": 2.31,
+      "text": "Changed files or newly in use/created:\n"
+    },
+    {
+      "t": 2.31,
+      "text": "  memo.aux\n"
+    },
+    {
+      "t": 2.31,
+      "text": "\n"
+    },
+    {
+      "t": 2.31,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.31,
+      "text": "Run number 2 of rule 'bibtex memo'\n"
+    },
+    {
+      "t": 2.31,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.31,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.31,
+      "text": "Running 'bibtex  \"memo.aux\"'\n"
+    },
+    {
+      "t": 2.31,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.4283,
+      "text": "This is BibTeX, Version 0.99d (TeX Live 2024)\n"
+    },
+    {
+      "t": 2.4284,
+      "text": "The top-level auxiliary file: memo.aux\n"
+    },
+    {
+      "t": 2.4284,
+      "text": "The style file: apalike.bst\n"
+    },
+    {
+      "t": 2.4284,
+      "text": "Database file #1: ../references.bib\n"
+    },
+    {
+      "t": 2.4312,
+      "text": "Latexmk: applying rule 'pdflatex'...\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "Rule 'pdflatex':  Reasons for rerun\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "Changed files or newly in use/created:\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "  memo.aux\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.4313,
+      "text": "Run number 3 of rule 'pdflatex'\n"
+    },
+    {
+      "t": 2.4314,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.4314,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.4314,
+      "text": "Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  \"memo.tex\"'\n"
+    },
+    {
+      "t": 2.4314,
+      "text": "------------\n"
+    },
+    {
+      "t": 2.5357,
+      "text": "This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)\n"
+    },
+    {
+      "t": 2.5381,
+      "text": " restricted \\write18 enabled.\n"
+    },
+    {
+      "t": 2.5997,
+      "text": "entering extended mode\n"
+    },
+    {
+      "t": 2.6013,
+      "text": "(./memo.tex\n"
+    },
+    {
+      "t": 2.6013,
+      "text": "LaTeX2e <2023-11-01> patch level 1\n"
+    },
+    {
+      "t": 2.6013,
+      "text": "L3 programming layer <2024-02-20>\n"
+    },
+    {
+      "t": 2.6022,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls\n"
+    },
+    {
+      "t": 2.6022,
+      "text": "Document Class: article 2023/05/17 v1.4n Standard LaTeX document class\n"
+    },
+    {
+      "t": 2.6101,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo))\n"
+    },
+    {
+      "t": 2.6112,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty\n"
+    },
+    {
+      "t": 2.6126,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty)\n"
+    },
+    {
+      "t": 2.6134,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty\n"
+    },
+    {
+      "t": 2.624,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty)))\n"
+    },
+    {
+      "t": 2.6289,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty)\n"
+    },
+    {
+      "t": 2.6306,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty)\n"
+    },
+    {
+      "t": 2.6324,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty)\n"
+    },
+    {
+      "t": 2.6338,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty\n"
+    },
+    {
+      "t": 2.6398,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty)\n"
+    },
+    {
+      "t": 2.6461,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def)\n"
+    },
+    {
+      "t": 2.6582,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg))\n"
+    },
+    {
+      "t": 2.6597,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty\n"
+    },
+    {
+      "t": 2.6598,
+      "text": "For additional information on amsmath, use the `?' option.\n"
+    },
+    {
+      "t": 2.6607,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty\n"
+    },
+    {
+      "t": 2.666,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty))\n"
+    },
+    {
+      "t": 2.6675,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n"
+    },
+    {
+      "t": 2.6736,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty))\n"
+    },
+    {
+      "t": 2.6746,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty\n"
+    },
+    {
+      "t": 2.6782,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty))\n"
+    },
+    {
+      "t": 2.6793,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty\n"
+    },
+    {
+      "t": 2.6802,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty\n"
+    },
+    {
+      "t": 2.6812,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty)\n"
+    },
+    {
+      "t": 2.682,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)\n"
+    },
+    {
+      "t": 2.6871,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def)))\n"
+    },
+    {
+      "t": 2.6885,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty)\n"
+    },
+    {
+      "t": 2.6957,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty\n"
+    },
+    {
+      "t": 2.6978,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg)\n"
+    },
+    {
+      "t": 2.7012,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))\n"
+    },
+    {
+      "t": 2.7036,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)\n"
+    },
+    {
+      "t": 2.7094,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty)\n"
+    },
+    {
+      "t": 2.7109,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty\n"
+    },
+    {
+      "t": 2.7127,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)\n"
+    },
+    {
+      "t": 2.7142,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)\n"
+    },
+    {
+      "t": 2.7153,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty\n"
+    },
+    {
+      "t": 2.7173,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)\n"
+    },
+    {
+      "t": 2.7185,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty\n"
+    },
+    {
+      "t": 2.7209,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))\n"
+    },
+    {
+      "t": 2.7241,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty)\n"
+    },
+    {
+      "t": 2.7259,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty)\n"
+    },
+    {
+      "t": 2.7271,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty\n"
+    },
+    {
+      "t": 2.7295,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty)\n"
+    },
+    {
+      "t": 2.7295,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s\n"
+    },
+    {
+      "t": 2.7393,
+      "text": "ty (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))\n"
+    },
+    {
+      "t": 2.7441,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def)\n"
+    },
+    {
+      "t": 2.7468,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty)\n"
+    },
+    {
+      "t": 2.763,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def)\n"
+    },
+    {
+      "t": 2.7653,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty)\n"
+    },
+    {
+      "t": 2.7668,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty\n"
+    },
+    {
+      "t": 2.7713,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))\n"
+    },
+    {
+      "t": 2.7811,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty))\n"
+    },
+    {
+      "t": 2.7828,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def\n"
+    },
+    {
+      "t": 2.789,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty)\n"
+    },
+    {
+      "t": 2.7891,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty\n"
+    },
+    {
+      "t": 2.792,
+      "text": "\n"
+    },
+    {
+      "t": 2.792,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty\n"
+    },
+    {
+      "t": 2.8026,
+      "text": "))) (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd)\n"
+    },
+    {
+      "t": 2.8044,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)\n"
+    },
+    {
+      "t": 2.8078,
+      "text": "(./memo.aux)\n"
+    },
+    {
+      "t": 2.8079,
+      "text": "*geometry* driver: auto-detecting\n"
+    },
+    {
+      "t": 2.8079,
+      "text": "*geometry* detected driver: pdftex\n"
+    },
+    {
+      "t": 2.8127,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg)\n"
+    },
+    {
+      "t": 2.8144,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\n"
+    },
+    {
+      "t": 2.8144,
+      "text": "[Loading MPS to PDF converter (version 2006.09.02).]\n"
+    },
+    {
+      "t": 2.8173,
+      "text": ") (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty\n"
+    },
+    {
+      "t": 2.8219,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))\n"
+    },
+    {
+      "t": 2.8409,
+      "text": "(./memo.out) (./memo.out) [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex\n"
+    },
+    {
+      "t": 2.9694,
+      "text": "/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec\n"
+    },
+    {
+      "t": 2.9765,
+      "text": ".enc}] (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd)\n"
+    },
+    {
+      "t": 2.9786,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd)\n"
+    },
+    {
+      "t": 2.9806,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd)\n"
+    },
+    {
+      "t": 2.9823,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd)\n"
+    },
+    {
+      "t": 2.9829,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd)\n"
+    },
+    {
+      "t": 2.9838,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg)\n"
+    },
+    {
+      "t": 2.9845,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd)\n"
+    },
+    {
+      "t": 2.9863,
+      "text": "(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg) [2{/usr/loc\n"
+    },
+    {
+      "t": 2.9865,
+      "text": "al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive\n"
+    },
+    {
+      "t": 2.9869,
+      "text": "/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-di\n"
+    },
+    {
+      "t": 2.9871,
+      "text": "st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-dist/fonts/e\n"
+    },
+    {
+      "t": 3.0047,
+      "text": "nc/dvips/lm/lm-mathsy.enc}] [3 <./requests.pdf>] [4] (./memo.bbl) [5]\n"
+    },
+    {
+      "t": 3.0055,
+      "text": "(./memo.aux) )</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.\n"
+    },
+    {
+      "t": 3.0127,
+      "text": "pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/\n"
+    },
+    {
+      "t": 3.0137,
+      "text": "local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texl\n"
+    },
+    {
+      "t": 3.0149,
+      "text": "ive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/t\n"
+    },
+    {
+      "t": 3.0159,
+      "text": "exmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2024/texmf-dist/f\n"
+    },
+    {
+      "t": 3.0202,
+      "text": "onts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/\n"
+    },
+    {
+      "t": 3.0239,
+      "text": "public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l\n"
+    },
+    {
+      "t": 3.0311,
+      "text": "mr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></\n"
+    },
+    {
+      "t": 3.032,
+      "text": "usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/\n"
+    },
+    {
+      "t": 3.0467,
+      "text": "texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>\n"
+    },
+    {
+      "t": 3.0468,
+      "text": "Output written on memo.pdf (5 pages, 205764 bytes).\n"
+    },
+    {
+      "t": 3.0468,
+      "text": "Transcript written on memo.log.\n"
+    },
+    {
+      "t": 3.0785,
+      "text": "Latexmk: Getting log file 'memo.log'\n"
+    },
+    {
+      "t": 3.0786,
+      "text": "Latexmk: Examining 'memo.fls'\n"
+    },
+    {
+      "t": 3.0786,
+      "text": "Latexmk: Examining 'memo.log'\n"
+    },
+    {
+      "t": 3.0786,
+      "text": "Latexmk: Found input bbl file 'memo.bbl'\n"
+    },
+    {
+      "t": 3.0786,
+      "text": "Latexmk: Log file says output to 'memo.pdf'\n"
+    },
+    {
+      "t": 3.3039,
+      "text": "Latexmk: Found bibliography file(s):\n"
+    },
+    {
+      "t": 3.3039,
+      "text": "  ../references.bib\n"
+    },
+    {
+      "t": 3.3039,
+      "text": "Latexmk: All targets (memo.pdf) are up-to-date\n"
+    },
+    {
+      "t": 3.3039,
+      "text": "Latexmk: Undoing directory change\n"
+    },
+    {
+      "t": 3.304,
+      "text": "\n"
+    },
+    {
+      "t": 3.3051,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

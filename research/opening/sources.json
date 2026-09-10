@@ -1,0 +1,122 @@
+[
+  {
+    "id": "risko2016",
+    "short": "Risko & Gilbert (2016)",
+    "title": "Cognitive Offloading",
+    "status": "Review · Trends in Cognitive Sciences",
+    "url": "https://doi.org/10.1016/j.tics.2016.07.002",
+    "source": "https://discovery.ucl.ac.uk/id/eprint/1508770/",
+    "finding": "Offloading changes the cognitive demands of a task by using external actions or resources. Its consequences depend on the task and on decisions about when to offload.",
+    "limit": "A conceptual and empirical review, not evidence that generative AI causes lasting cognitive decline.",
+    "locator": "UCL repository abstract; author manuscript search record.",
+    "group": "Foundation"
+  },
+  {
+    "id": "sparrow2011",
+    "short": "Sparrow, Liu & Wegner (2011)",
+    "title": "Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips",
+    "status": "Experiments · Science",
+    "url": "https://doi.org/10.1126/science.1207745",
+    "source": "https://news.columbia.edu/news/study-finds-memory-works-differently-age-google",
+    "finding": "In computer-based memory experiments, expecting later access changed recall of information and its location.",
+    "limit": "An influential precursor about memory allocation; not an experiment on present-day AI or general intelligence.",
+    "locator": "Original abstract and authors’ university account; PubMed full-page retrieval encountered CAPTCHA.",
+    "group": "Foundation"
+  },
+  {
+    "id": "lee2025",
+    "short": "Lee et al. (2025)",
+    "title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
+    "status": "Survey · CHI 2025",
+    "url": "https://doi.org/10.1145/3706598.3713778",
+    "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
+    "finding": "319 workers supplied 936 use examples. Greater confidence in AI was associated with less reported critical thinking.",
+    "limit": "Self-report and association do not establish loss of cognitive ability over time.",
+    "locator": "Abstract; sections 4–5 of the primary paper.",
+    "group": "Cognitive effects"
+  },
+  {
+    "id": "bastani2025",
+    "short": "Bastani et al. (2025)",
+    "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+    "status": "Randomized field experiment · PNAS",
+    "url": "https://doi.org/10.1073/pnas.2422633122",
+    "source": "/artifacts/bastani-pnas.pdf",
+    "finding": "In a Turkish high school, unrestricted GPT help improved practice performance but reduced subsequent unaided exam grades by 17% relative to control. A guided tutor largely removed that penalty.",
+    "limit": "This identifies an effect in a particular learning setting; it does not establish faculty deskilling or permanent cognitive loss.",
+    "locator": "Published PNAS article supplied by the presenter, abstract p. 1. The August 2025 correction concerns an affiliation, not results: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/",
+    "group": "Cognitive effects"
+  },
+  {
+    "id": "kosmyna2025",
+    "short": "Kosmyna et al. (2025)",
+    "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+    "status": "Preprint · arXiv v2, 31 December 2025",
+    "url": "https://arxiv.org/abs/2506.08872",
+    "source": "https://arxiv.org/abs/2506.08872",
+    "finding": "Essay-writing study with EEG: 54 participants in the first three sessions and 18 in the fourth; reports differences in connectivity and recall across tool conditions.",
+    "limit": "EEG differences are not a direct measure of permanent cognitive damage. Small task-specific study; retain its preprint status.",
+    "locator": "arXiv abstract and version history. Included because it is prominent in public discussion, not as the strongest causal evidence.",
+    "group": "Further reading"
+  },
+  {
+    "id": "gottweis2026",
+    "short": "Gottweis et al. (2026)",
+    "title": "Accelerating scientific discovery with Co-Scientist",
+    "status": "Research article · Nature, published 19 May 2026",
+    "url": "https://doi.org/10.1038/s41586-026-10644-y",
+    "source": "https://www.nature.com/articles/s41586-026-10644-y",
+    "finding": "Specialized agents generate, critique and refine hypotheses. Selected biomedical hypotheses received laboratory evaluation, including drug-repurposing candidates tested in vitro.",
+    "limit": "Scientists selected and tested hypotheses. These demonstrations do not establish autonomous science across disciplines.",
+    "locator": "Abstract; Fig. 1; expert-in-the-loop workflow; real-world validations; code-availability statement.",
+    "group": "Research agents"
+  },
+  {
+    "id": "kirgis2026",
+    "short": "Kirgis et al., including Narayanan (2026)",
+    "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+    "status": "Preprint · arXiv 2607.27191; consulted 9 September 2026",
+    "url": "https://arxiv.org/abs/2607.27191",
+    "source": "https://cruxevals.com/crux/can-ai-agents-conduct-research/",
+    "finding": "Two shadow evaluations gave agents unpublished AI research questions, six days and substantial compute. Engineering was completed; the original authors judged both papers below the publication bar.",
+    "limit": "Only two questions; reviews were not blinded. Engineering capability and research judgment are distinct outcomes.",
+    "locator": "Primary HTML abstract, sections 3–7 and original-author reviews: https://arxiv.org/html/2607.27191v1",
+    "group": "Research agents"
+  },
+  {
+    "id": "metr2026",
+    "short": "METR (2026)",
+    "title": "Task-Completion Time Horizons of Frontier AI Models",
+    "status": "Benchmark methodology and updated measurements",
+    "url": "https://metr.org/time-horizons/",
+    "source": "https://metr.org/notes/2026-01-22-time-horizon-limitations/",
+    "finding": "Time horizon uses human task duration and a specified probability of agent success on the evaluated task suite.",
+    "limit": "A 50% horizon is neither uninterrupted agent runtime nor a guarantee of successful week-long research.",
+    "locator": "Methodological details and limitations note. No current leaderboard number is reproduced.",
+    "group": "Long-horizon evaluation"
+  },
+  {
+    "id": "anthropic2025",
+    "short": "Anthropic (2025)",
+    "title": "Effective harnesses for long-running agents",
+    "status": "Developer engineering report · 26 November 2025",
+    "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "source": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "finding": "Persistent progress records and incremental work help carry tasks across limited context windows.",
+    "limit": "An engineering report on software tasks, not a controlled demonstration of scientific discovery. Also shows agents predate 2026.",
+    "locator": "Long-running agent problem and implementation sections.",
+    "group": "Agent architecture"
+  },
+  {
+    "id": "anthropic2026",
+    "short": "Rajasekaran / Anthropic (2026)",
+    "title": "Harness design for long-running application development",
+    "status": "Developer engineering report · 24 March 2026",
+    "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "source": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "finding": "A planner, generator and evaluator divide application-building work, with structured artifacts supporting handoffs.",
+    "limit": "A vendor engineering case study. More agents and more time do not by themselves validate an output.",
+    "locator": "Architecture and harness-iteration sections. The presentation diagram is a generic teaching schematic.",
+    "group": "Agent architecture"
+  }
+]

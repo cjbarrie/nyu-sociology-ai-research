@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,booktabs,tabularx,amsmath,amssymb,natbib,enumitem}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{7pt}
+\setlist{nosep,leftmargin=*}
+\begin{document}
+\begin{center}
+{\Large\bfseries AI chatbots and informal support-seeking}\\[8pt]
+{\large Evidence assessment and a proposed diary study}\\[8pt]
+NYU Sociology faculty workshop $\cdot$ September 2026
+\end{center}
+\textbf{Status.} Working research proposal prepared with AI assistance for discussion. No participants have been recruited and no effects have been estimated. The accompanying evidence table is a bounded scoping review, not a systematic review.
+\section*{1. Research question}
+Do offers of access to an AI chatbot change how often people ask existing friends and family for emotional support or personal advice? Two mechanisms motivate the question. A chatbot might substitute for a request that would otherwise go to another person. It might also help a person formulate a concern or suggest contacting someone they know. These mechanisms need not be mutually exclusive, and reduced outreach does not by itself establish harm.
+\textbf{Target outcome.} A request is an initiated attempt to obtain emotional support or personal advice from an existing friend or family member. Count an attempt whether or not it receives a response. Distinguish requests from time spent socializing, perceived availability of support, loneliness, and relationship quality.
+\section*{2. What the retrieved evidence establishes}
+\citet{fang2025} randomized chatbot modes and topics over four weeks. The revised abstract reports no significant assigned-condition effects. Associations with voluntary use intensity do not inherit the randomization. Its socialization instrument is not a direct count of support requests. \citet{guingrich2025} compare chatbot use with a word game over 21 days; their social-health and perceived-impact measures also differ from the proposed outcome.
+Experiments reported by \citet{defreitas2025} concern loneliness relief. Such relief could coexist with either more or less subsequent outreach. Interview evidence about chatbot relationships \citep{skjuve2021} helps formulate mechanisms but cannot identify a population effect of chatbot access. This record was assessed from institutional abstract and metadata, which limits the detail we can verify.
+\textbf{Assessment.} The reviewed studies motivate the question but do not settle the causal effect on requests to friends and family. This is a statement about the retrieved set and the outcome definition, not a claim that no relevant study exists.
+\newpage
+\section*{3. Evidence and measurement}
+The search record covers nine studies: eight core or contextual records and one scope boundary. Primary-source access, version, design, outcome and interpretation limits are recorded separately. The search was conducted on 8 September 2026; the present design and source audit was conducted on 9 September. The study summaries below refer to the versions in the bibliography.
+\small
+\begin{tabularx}{\textwidth}{@{}p{.20\textwidth}X X@{}}
+\toprule
+Study & Design / measured outcome & Implication for this question \\\midrule
+Fang et al. (2025), v2 & Randomized modes and topics; loneliness and socialization & Voluntary duration is not assigned. No direct request count. \\\addlinespace
+Guingrich \& Graziano (2025), v3 & Chatbot versus word game; social health and perceived impact & A comparison group is useful, but the outcome differs. \\\addlinespace
+De Freitas et al. (2025) & Experiments including repeated interactions; loneliness & Relief does not identify later human outreach. \\\addlinespace
+Chandra et al. (2025) & Exploratory longitudinal use; attachment and comfort & Useful for mechanisms and experience of use. \\\addlinespace
+Meng \& Dai (2021) & Support-message experiment; stress and worry & Immediate response to support differs from subsequent seeking. Abstract-only access. \\\addlinespace
+Meng et al. (2025); Young et al. (2024) & Human--AI support generation or evaluation & Message quality and preference do not measure outreach. \\\addlinespace
+Skjuve et al. (2021) & Interviews with selected chatbot users & Qualitative mechanism evidence; abstract-only access. \\\addlinespace
+Ueda et al. (2026) & Cross-sectional professional-help attitudes & Scope boundary: professional rather than informal support. \\\bottomrule
+\end{tabularx}
+\normalsize
+\section*{4. Proposed design}
+Recruit adults for a baseline diary week and four follow-up weeks. Randomly assign participants to usual access to existing services ($Z=0$), an offer of access to a specified chatbot with standardized onboarding ($Z=1$), or the same offer with an additional feature suggesting human contact when appropriate ($Z=2$). Equalize reminders, researcher contact and incentives.
+The usual-access arm retains access to other chatbots. The treatment is an offer of a particular service and onboarding; the study does not remove chatbot access from the world. Record outside use without excluding participants who use another service or decline the assigned offer. Population, recruitment, precision target and implementation require further decisions before preregistration.
+\newpage
+\section*{5. Outcomes and analysis}
+Let $Y_i(z)$ be participant $i$'s total self-reported requests to existing friends and family in the fixed 28-day follow-up under assignment $z$. The primary estimand is the intention-to-treat effect of the standard offer:
+\[
+\tau_{\mathrm{offer}}=\mathbb{E}[Y_i(1)-Y_i(0)].
+\]
+The secondary contrast is the effect of adding the human-contact feature to that offer:
+\[
+\tau_{\mathrm{feature}}=\mathbb{E}[Y_i(2)-Y_i(1)].
+\]
+Estimate differences in group means with confidence intervals. A prespecified linear adjustment for baseline outreach can improve precision; for example,
+\[
+Y_i=\alpha+\beta_1\mathbf{1}(Z_i=1)+\beta_2\mathbf{1}(Z_i=2)+\gamma Y_{i,\mathrm{baseline}}+\epsilon_i.
+\]
+Use heteroskedasticity-robust uncertainty; the feature contrast is $\beta_2-\beta_1$. Keep all participants in their assigned groups. Specify a testing hierarchy or multiplicity adjustment before analysis. A linear model here targets mean differences, even though the outcome is a count; count-model sensitivity analyses should retain the estimand's interpretation.
+\textbf{Missing data.} A completed diary with no request contributes zero. A missing diary does not. Report diary completion by assignment and prespecify handling of partial follow-up, assumptions for imputation, and sensitivity to differential missingness. Complete-case analysis alone will not address selective nonresponse.
+\textbf{Post-assignment variables.} Do not adjust the primary effect for chatbot minutes, subsequent loneliness or reported need episodes. Assignment may affect all three. Conditioning on use can reintroduce selection; conditioning on needs may compare different sets of episodes. Report episode sequences as secondary descriptions, without interpreting temporal order alone as causal mediation.
+\textbf{Interpretation.} A negative offer effect means fewer reported requests under this offer in this population and period. It does not by itself demonstrate weaker relationships or lower wellbeing. Measure response success, usefulness and wellbeing separately. An imprecise null result cannot establish that a substantively important effect is absent.
+\section*{6. Questions for the researcher}
+Which population is the argument about: existing companion users, prospective users, or adults generally? What change in requests would be substantively meaningful? Can friends enroll together, creating spillovers? Is a self-report measure adequate for the intended claim? These choices remain unresolved; the workshop dialogue does not substitute for researcher decisions.
+\newpage
+\section*{7. Draft daily diary instrument}
+\textit{Unvalidated draft for piloting and cognitive interviews.}
+
+\textbf{Instructions.} Think about the period since yesterday's diary. Count a distinct request for emotional support or personal advice made to someone you already know as a friend or family member. Count it even if they did not respond. Several messages about the same issue in the same conversation count as one request. Pilot these episode boundaries before fielding.
+\begin{enumerate}
+\item Did you ask any existing friend or family member for emotional support or personal advice? [No / Yes / Prefer not to answer]
+\item If yes, how many distinct requests did you initiate? [Number]
+\item For each request: Who did you contact? [Friend / Family member]; How? [In person / Voice or video / Text]; Did they respond? [Yes / No / Not yet]; How useful was the response? [Optional scale, to be piloted]
+\item Did you use a chatbot to discuss a personal problem? [No / Yes / Prefer not to answer]. If yes, which service, and was that before or after any human contact about the same issue?
+\item Did a chatbot suggest contacting someone you know? [No / Yes / Unsure]. If yes, did you subsequently do so? [No / Yes / Not yet]
+\item Was there a personal concern for which you wanted support but sought none? [No / Yes / Prefer not to answer]. This question informs secondary analyses; it does not define the primary denominator.
+\end{enumerate}
+Avoid collecting names, message contents or third-party identifiers in the core diary. Optional metadata validation would require a distinct consent and privacy plan and would establish timing, not supportive meaning. Participation should not interfere with access to existing support. Recruitment and chatbot features require ordinary ethics review before deployment.
+\section*{8. How the proposal changed during review}
+The initial workshop used an agent-based simulation. Review showed that its outreach effects followed from specified substitution and bridging rules. This proposal replaces that exercise with a directly inspectable outcome, assignment scheme and instrument. Separate source and methods agents agreed that usage associations do not inherit randomization, and independently raised the problem of conditioning on post-assignment needs. Their reports are retained alongside the evidence records. Agreement between agents is not independent empirical evidence.
+\textbf{Files for inspection.} The workshop folder contains the full evidence table, retrieval log, bibliography, source and methods reviews, this LaTeX source and the compiled PDF. The paired coauthor dialogue is explicitly scripted; reviewer reports are actual agent output. No new empirical result is presented here.
+\newpage
+\bibliographystyle{apalike}
+\nocite{chandra2025,meng2021,meng2025,young2024,ueda2026}
+\bibliography{../references}
+\end{document}

@@ -1,0 +1,109 @@
+{
+  "version": "v1",
+  "reps": 80,
+  "n": 100,
+  "periods": 100,
+  "unit": "events per 100 support needs",
+  "scenarios": [
+    {
+      "name": "No chatbot",
+      "parameters": {
+        "access": 0
+      },
+      "metrics": {
+        "humanRequests": {
+          "mean": 54.56991012753652,
+          "low": 51.39400315623356,
+          "high": 57.261410788381745
+        },
+        "humanContacts": {
+          "mean": 35.49911379310488,
+          "low": 31.82751540041068,
+          "high": 38.20926600728787
+        },
+        "chatbot": {
+          "mean": 0,
+          "low": 0,
+          "high": 0
+        },
+        "noResponse": {
+          "mean": 64.50088620689513,
+          "low": 61.79073399271213,
+          "high": 68.17248459958932
+        }
+      }
+    },
+    {
+      "name": "Substitution",
+      "parameters": {
+        "bridging": 0
+      },
+      "metrics": {
+        "humanRequests": {
+          "mean": 28.604302057039057,
+          "low": 25.07820646506778,
+          "high": 31.803123521060105
+        },
+        "humanContacts": {
+          "mean": 18.63112500080514,
+          "low": 15.954118873826904,
+          "high": 21.5512753774076
+        },
+        "chatbot": {
+          "mean": 49.545644660720946,
+          "low": 42.560912389839295,
+          "high": 55.47445255474452
+        },
+        "noResponse": {
+          "mean": 31.8232303384739,
+          "low": 27.755102040816325,
+          "high": 35.47094188376754
+        }
+      }
+    }
+  ],
+  "grid": [
+    {
+      "substitution": 0,
+      "bridging": 0,
+      "mean": 0,
+      "low": 0,
+      "high": 0
+    },
+    {
+      "substitution": 0.2,
+      "bridging": 0,
+      "mean": -8.65128416310508,
+      "low": -10.218978102189782,
+      "high": -7.379134860050891
+    },
+    {
+      "substitution": 0.4,
+      "bridging": 0,
+      "mean": -17.270037994895862,
+      "low": -19.94962216624685,
+      "high": -14.112291350531107
+    },
+    {
+      "substitution": 0.6,
+      "bridging": 0,
+      "mean": -25.96560807049744,
+      "low": -29.38836399801094,
+      "high": -21.410057024364956
+    },
+    {
+      "substitution": 0.8,
+      "bridging": 0,
+      "mean": -34.7921113184798,
+      "low": -39.1742195367573,
+      "high": -28.149300155520994
+    },
+    {
+      "substitution": 1,
+      "bridging": 0,
+      "mean": -43.563145513242645,
+      "low": -48.383888612630535,
+      "high": -35.50834597875569
+    }
+  ]
+}

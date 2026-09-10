@@ -1,0 +1,90 @@
+[
+  {
+    "key": "fang2025",
+    "url": "https://arxiv.org/html/2503.17473v2",
+    "status": 200,
+    "bytes": 277121,
+    "sha256": "c95d4f72f96b80519deb8f3c30ce53e51b2c7a11eb034635f22d181fea183c82",
+    "content_type": "text/html",
+    "seconds": 0.28,
+    "retrieval_valid": true
+  },
+  {
+    "key": "guingrich2025",
+    "url": "https://arxiv.org/html/2509.19515v3",
+    "status": 200,
+    "bytes": 207503,
+    "sha256": "2e221eeb8a7e2590b6926e8248939402f658ea781a3a1b36486627d7ffbea405",
+    "content_type": "text/html",
+    "seconds": 0.122,
+    "retrieval_valid": true
+  },
+  {
+    "key": "chandra2025",
+    "url": "https://arxiv.org/html/2504.14112v1",
+    "status": 200,
+    "bytes": 272035,
+    "sha256": "6a14120b71f1c3d8c5809171bb4339afdeb4ba3b18b4b79fcc24ff31c5d5626e",
+    "content_type": "text/html",
+    "seconds": 0.124,
+    "retrieval_valid": true
+  },
+  {
+    "key": "defreitas2025",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/AI%20Companions%20Reduce%20Loneliness%2011.7.2025_57451c02-8047-4e0d-abfc-55841f64166d.pdf",
+    "status": 200,
+    "bytes": 1621106,
+    "sha256": "059601aadc7c862caa09746d0e4410ecc7fa3cf698cbe5c839e78265c65463b6",
+    "content_type": "application/pdf",
+    "seconds": 0.523,
+    "retrieval_valid": true
+  },
+  {
+    "key": "meng2021",
+    "url": "https://scholars.cityu.edu.hk/en/publications/emotional-support-from-ai-chatbots-should-a-supportive-partner-se/",
+    "status": 200,
+    "bytes": 55401,
+    "sha256": "e8c1b8ee48ad11d84286c3c3fc155cc754c9f4a4d98f796138a7baa0d9c9e39f",
+    "content_type": "text/html",
+    "seconds": 1.703,
+    "retrieval_valid": true
+  },
+  {
+    "key": "meng2025",
+    "url": "https://academic.oup.com/jcmc/article/30/4/zmaf013/8200809",
+    "error": "HTTP Error 403: Forbidden",
+    "seconds": 0.154,
+    "retrieval_valid": false
+  },
+  {
+    "key": "young2024",
+    "url": "https://arxiv.org/html/2405.02711v1",
+    "status": 200,
+    "bytes": 311635,
+    "sha256": "6cf03f3e622280a02e8fef7e0180128825378cad0a13f4b72f83b7d2ec2f2a9b",
+    "content_type": "text/html",
+    "seconds": 0.11,
+    "retrieval_valid": true
+  },
+  {
+    "key": "skjuve2021",
+    "url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+    "status": 200,
+    "bytes": 56258,
+    "sha256": "ebbedeae1d278d02ef6cf7d5a288a6a7f4c8a365dc7be868241ce87b47cb9dd7",
+    "content_type": "text/html",
+    "seconds": 0.607,
+    "retrieval_valid": true
+  },
+  {
+    "key": "ueda2026",
+    "url": "https://mental.jmir.org/2026/1/e88196/",
+    "status": 202,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "content_type": "text/html",
+    "seconds": 0.275,
+    "error": "Empty HTTP response; not a retrieved source. Full text inspected through web retrieval.",
+    "retrieval_valid": false
+  }
+]

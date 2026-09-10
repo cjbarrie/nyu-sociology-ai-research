@@ -1,0 +1,61 @@
+{
+  "title": "00-source-retrieval",
+  "recorded_at": "2026-09-08T23:19:22.947637+00:00",
+  "elapsed_seconds": 4.058,
+  "command": [
+    "python3",
+    "-u",
+    "scripts/fetch_sources.py"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0002,
+      "text": "$ python3 -u scripts/fetch_sources.py\n"
+    },
+    {
+      "t": 0.434,
+      "text": "fang2025: retrieved 277,121 bytes (text/html); SHA256 c95d4f72f96b\n"
+    },
+    {
+      "t": 0.5556,
+      "text": "guingrich2025: retrieved 207,503 bytes (text/html); SHA256 2e221eeb8a7e\n"
+    },
+    {
+      "t": 0.6798,
+      "text": "chandra2025: retrieved 272,035 bytes (text/html); SHA256 6a14120b71f1\n"
+    },
+    {
+      "t": 1.2023,
+      "text": "defreitas2025: retrieved 1,621,106 bytes (application/pdf); SHA256 059601aadc7c\n"
+    },
+    {
+      "t": 2.9053,
+      "text": "meng2021: retrieved 55,401 bytes (text/html); SHA256 e8c1b8ee48ad\n"
+    },
+    {
+      "t": 3.0588,
+      "text": "meng2025: unavailable via direct fetch: HTTP Error 403: Forbidden; see evidence table for web-tool access\n"
+    },
+    {
+      "t": 3.1687,
+      "text": "young2024: retrieved 311,635 bytes (text/html); SHA256 6cf03f3e6222\n"
+    },
+    {
+      "t": 3.7759,
+      "text": "skjuve2021: retrieved 56,258 bytes (text/html); SHA256 ebbedeae1d27\n"
+    },
+    {
+      "t": 4.0509,
+      "text": "ueda2026: retrieved 0 bytes (text/html); SHA256 e3b0c44298fc\n"
+    },
+    {
+      "t": 4.0512,
+      "text": "Saved retrieval manifest. Retrieval alone does not verify a claim.\n"
+    },
+    {
+      "t": 4.0577,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

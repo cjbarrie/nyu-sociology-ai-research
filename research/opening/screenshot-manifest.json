@@ -1,0 +1,72 @@
+[
+  {
+    "id": "risko",
+    "source": "https://samgilbert.net/pubs/Risko2016TiCS.pdf",
+    "captured": "2026-09-09",
+    "page": 1,
+    "crop_fraction_from_top": [
+      0.075,
+      0.035,
+      0.94,
+      0.23
+    ],
+    "source_sha256": "a7aeb66d2155b76415c51e79c7fe4c78c077b18a3693f5ea0596285c2bedb8bd",
+    "note": "Actual PDF title-page excerpt, rendered with Poppler; no recreated text."
+  },
+  {
+    "id": "lee",
+    "source": "https://www.microsoft.com/en-us/research/uploads/prod/2025/01/lee_2025_ai_critical_thinking_survey.pdf",
+    "captured": "2026-09-09",
+    "page": 1,
+    "crop_fraction_from_top": [
+      0.08,
+      0.065,
+      0.935,
+      0.402
+    ],
+    "source_sha256": "4f241a87e3b5383ff1d08311bb55d932237937e038d8c9c2e9e5bd792355709a",
+    "note": "Actual PDF title-page excerpt, rendered with Poppler; no recreated text."
+  },
+  {
+    "id": "bastani",
+    "source": "https://doi.org/10.1073/pnas.2422633122",
+    "captured": "2026-09-09",
+    "page": 1,
+    "crop_fraction_from_top": [
+      0.05,
+      0.014,
+      0.95,
+      0.207
+    ],
+    "source_sha256": "64feea9758514b63c90a51b1a44599726bd8a4e7404e94ca39733e713b4a0153",
+    "note": "Actual PDF title-page excerpt, rendered with Poppler; no recreated text."
+  },
+  {
+    "id": "coscientist",
+    "source": "https://www.nature.com/articles/s41586-026-10644-y.pdf",
+    "captured": "2026-09-09",
+    "page": 1,
+    "crop_fraction_from_top": [
+      0.05,
+      0.028,
+      0.95,
+      0.323
+    ],
+    "source_sha256": "351f49d89d2f4f4ed84eed4225c09cc95470c41aa3becd0aa3e06b3bd8ba54c3",
+    "note": "Actual PDF title-page excerpt, rendered with Poppler; no recreated text."
+  },
+  {
+    "id": "crux",
+    "source": "https://arxiv.org/pdf/2607.27191",
+    "captured": "2026-09-09",
+    "page": 1,
+    "crop_fraction_from_top": [
+      0.115,
+      0.083,
+      0.888,
+      0.35
+    ],
+    "source_sha256": "1498e9169c3c2031ce9e283d73061d3e63ba2e810b02b357a51477c5260bb508",
+    "note": "Actual PDF title-page excerpt, rendered with Poppler; no recreated text. CRUX downloaded version is v2."
+  }
+]

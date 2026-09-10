@@ -1,0 +1,76 @@
+{
+  "title": "03-bridging-revision",
+  "recorded_at": "2026-09-08T23:21:37.926256+00:00",
+  "elapsed_seconds": 0.037,
+  "command": [
+    "python3",
+    "scripts/revise.py"
+  ],
+  "exit_code": 0,
+  "events": [
+    {
+      "t": 0.0001,
+      "text": "$ python3 scripts/revise.py\n"
+    },
+    {
+      "t": 0.0346,
+      "text": "Researcher instruction from the agreed plan: Add the possibility that chatbot use encourages human contact.\n"
+    },
+    {
+      "t": 0.0347,
+      "text": "Applied actual change to the model:\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "--- v1/model.mjs\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "+++ v2/model.mjs\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "@@ -16,7 +16,7 @@\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "  for(const a of world.agents){const u=round.events[a.id];if(u.need>=a.need)continue;\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "  totals.needs++;const hasAI=a.access<access;const wantedHuman=u.human<a.human;\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "  const usesAI=hasAI&&(wantedHuman?u.sub<substitution:u.adopt<adoption);\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "- const bridge=false; // v1: substitution only; no bridge from chatbot to a person.\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "+ const bridge=usesAI && u.bridge<bridging; // v2: AI may prompt human outreach.\n"
+    },
+    {
+      "t": 0.0348,
+      "text": "  const asksHuman=(wantedHuman&&!usesAI)||bridge;\n"
+    },
+    {
+      "t": 0.0349,
+      "text": "  const friends=world.neighbors[a.id];const friend=friends[Math.floor(u.friend*friends.length)];\n"
+    },
+    {
+      "t": 0.0349,
+      "text": "  const humanResponds=asksHuman&&round.available[friend]<world.agents[friend].availability;\n"
+    },
+    {
+      "t": 0.0349,
+      "text": "\n"
+    },
+    {
+      "t": 0.0373,
+      "text": "Exit status: 0\n"
+    }
+  ]
+}

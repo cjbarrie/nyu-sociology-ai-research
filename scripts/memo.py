@@ -1,0 +1,75 @@
+import pathlib,json,sys
+v=sys.argv[1];p=pathlib.Path('research')/v;j=json.loads((p/'results.json').read_text());vals=[s['metrics']['humanRequests']['mean'] for s in j['scenarios']]
+bridging=v=='v2'
+tex=r'''\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage{lmodern,microtype,amsmath,amssymb,graphicx,booktabs,xcolor,fancyhdr,natbib}
+\usepackage[colorlinks=true,urlcolor=violet,citecolor=violet,linkcolor=violet]{hyperref}
+\definecolor{violet}{HTML}{6841BB}
+\setlength{\parindent}{0pt}\setlength{\parskip}{7pt}\setlength{\headheight}{14pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small NYU Sociology / Research demonstration}\fancyhead[R]{\small VERSIONTOKEN}\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\begin{document}
+{\color{violet}\small RESEARCH MEMO \hfill 8 SEPTEMBER 2026}\par
+{\LARGE\bfseries Do AI chatbots displace human support-seeking?}\par
+{\large Evidence, mechanisms, and an illustrative computational model}\par
+\textit{Prepared with AI for Christopher Barrie's faculty presentation. This is a research-workflow demonstration, not an empirical study of chatbot effects.}
+\section*{1. Question and evidence}
+The target is an action: reaching out to a friend or family member for emotional support or advice after a support need arises. Loneliness, comfort with AI, and ratings of helpful messages are related constructs, but none is interchangeable with that action. The relevant causal comparison is the same population's human outreach under different chatbot-access or design conditions.
+
+A bounded scoping search retained eight empirical papers for core or mechanism context, plus one professional-support boundary case. It used general web discovery and primary-source retrieval, not a systematic database protocol. Access and study-level limitations are documented in the accompanying evidence table. Two records were assessed from institutional abstracts and metadata only. The collection cannot establish the absence of more direct studies.
+
+\citet{fang2025} randomized chatbot modes and conversation topics, not voluntary usage intensity. Its revised abstract reports no significant assigned-condition effects, while heavier use is associated with worse psychosocial outcomes. This does not identify the causal effect of chatbot access on informal outreach. In a chatbot versus word-game comparison, \citet{guingrich2025} report no overall significant social-health or relationship effects; their perceived-impact measures also differ from observed requests to friends.
+
+\citet{defreitas2025} investigate momentary loneliness relief. \citet{chandra2025} examine attachment and comfort with AI support. Neither outcome should silently become a claim about displaced human requests. We use these studies to clarify constructs and plausible mechanisms, without deriving model parameters from them.
+
+\textbf{Working conclusion.} The selected evidence motivates the question but does not supply a direct, transportable causal estimate of informal support displacement. A more focused review and behavioral measurement are needed.
+\newpage
+\section*{2. Mechanisms and an explicit model}
+\textbf{Substitution}: a person who would otherwise approach a friend instead uses a chatbot. BRIDGETEXT
+
+The model contains $N=100$ people in a fixed undirected network for $T=100$ periods. A ring connects each person to their two nearest neighbors on each side; each person has probability 0.3 of adding one random undirected tie. No self-links or duplicates are permitted. A contacted friend is selected uniformly from the person's neighbors. Ties do not evolve.
+
+Each person's need probability is drawn from $U(0.12,0.28)$, baseline human-request propensity from $U(0.35,0.75)$, and availability from $U(0.45,0.85)$. Access is fixed at the individual level with probability $a=0.8$. New needs and availability are drawn each period. Conditional on a need, let $H^0_{it}$ indicate a baseline human request, $Z_i$ access, and $D_{it}$ diversion with probability $s=0.6$. Non-requesters with access adopt the chatbot with probability $q=0.65$.
+\begin{align*}
+ A_{it}&=Z_i\left[H^0_{it}D_{it}+(1-H^0_{it})Q_{it}\right],\\
+ H_{it}&=H^0_{it}(1-A_{it})+BRIDGEEQ.
+\end{align*}
+DEFINITIONTEXT
+
+A human contact succeeds only when the selected friend is available. Available friends may answer multiple people in one period; support quality and capacity constraints are unmodeled. Chatbots always respond in this toy model. No response is recorded when neither a chatbot nor a human answers. A response is not assumed to resolve the underlying need.
+
+All scenarios reuse the same people, network, needs, and random draws within each seed. We run 80 seeds, reporting events per 100 needs and the central 95\% of simulated runs. These intervals describe simulation variation, not uncertainty about a real treatment effect. All parameter choices are illustrative.
+\newpage
+\section*{3. Simulated implications}
+\begin{center}\includegraphics[width=\linewidth]{requests.pdf}\end{center}
+RESULTTEXT
+
+For a person with baseline request probability $h$, the expected request rate per need is
+\[
+ EXPECTEDEQ
+\]
+THRESHOLDTEXT
+
+The model is deliberately transparent. It reveals which assumptions can generate a pattern; it does not estimate their frequency or magnitude in a population. It contains no learned human psychology, preference change, relationship erosion, or empirically estimated behavioral rule. Network structure affects which friend is approached and whether a response occurs; it does not itself generate the sign of the human-request effect.
+\newpage
+\section*{4. Critique and the next research step}
+\textbf{Illustrative overclaim:} ``The simulation shows that AI chatbots reduce support-seeking from friends and family.''
+
+\textbf{Correction:} CORRECTIONTEXT The simulation demonstrates conditional implications of supplied rules, not the effect of actual chatbots. A compiled PDF, accurate arithmetic, and real citations do not by themselves validate a substantive claim.
+
+Qualitative and communication research helps specify alternatives. Interviews with selected Replika users describe mixed broader social consequences \citep{skjuve2021}; their institutional abstract is useful mechanism context, not causal identification. Studies of support-message production and evaluation \citep{meng2025,young2024} motivate examining AI-assisted human communication, without estimating our bridging probability. Immediate stress relief \citep{meng2021} is another distinct outcome; only its institutional abstract was assessed here. Professional-help attitudes \citep{ueda2026} remain outside the primary informal-support outcome.
+
+\textbf{A discriminating design.} An event-contingent diary could register support needs before recording whom participants approached, timestamps, responses, and perceived helpfulness. With appropriate participant protections, randomize encouragement to use a bridge-oriented versus otherwise comparable chatbot design. Treat assigned encouragement as the primary contrast; do not substitute self-selected minutes of use for treatment assignment. Measure actual follow-up contact rather than only stated intention.
+
+Prespecify human outreach over a fixed observation window, separately report the incidence of needs, and retain participants with no recorded needs in person-level analyses. Conditioning only on post-treatment reported needs could select on an affected variable. Record baseline ties and access constraints. Follow-up attrition, treatment adherence, spillovers between friends, and changes in need reporting are substantive threats to interpretation. Obtain ethics review before implementing a human study; none was conducted here.
+
+\textbf{Audit trail.} Evidence records link each interpretation to a source and locator. Saved model versions, paired-run data, figures, command recordings, and this document's source show what changed. The AI performed retrieval and execution; the research question, competing mechanism, and limits on inference guide their use.
+\newpage
+\small\bibliographystyle{apalike}\bibliography{../references}
+\end{document}
+'''
+repl={'VERSIONTOKEN':v.upper(),'BRIDGETEXT':r'\textbf{Bridging}: an interaction with a chatbot prompts a subsequent request to a friend, including among people who would otherwise seek no human support.' if bridging else 'This initial version deliberately contains no pathway from chatbot interaction back to human outreach.','BRIDGEEQ':r'A_{it}B_{it}' if bridging else '0','DEFINITIONTEXT':r'Here $B_{it}$ is a bridging draw with probability $b=0.8$ in the example scenario; the sensitivity grid varies both $s$ and $b$ from 0 to 1 in steps of 0.2. The two terms in $H_{it}$ are mutually exclusive, so a person makes at most one human request per need.' if bridging else 'There is at most one human request per need. The sensitivity check varies $s$ from 0 to 1 in steps of 0.2. The absence of bridging is a modeling restriction, not an empirical finding.', 'RESULTTEXT':f'The no-chatbot scenario averages {vals[0]:.1f} human requests per 100 needs; substitution averages {vals[1]:.1f}.'+(f' Adding bridging at $b=0.8$ produces {vals[2]:.1f} requests. The sign changes under these illustrative choices. The accompanying sensitivity figure shows the result across the full parameter grid.' if bridging else ' The decline is expected: diversion removes baseline requests and no rule adds them back.'),'EXPECTEDEQ':r'\mathbb{E}[H\mid\text{need}]=h(1-as)+ab\{hs+(1-h)q\}.' if bridging else r'\mathbb{E}[H\mid\text{need}]=h(1-as).','THRESHOLDTEXT':r'For $a>0$, the change relative to no chatbot is positive when $b>hs/[hs+(1-h)q]$, assuming a nonzero denominator. At $h=0.55$, $s=0.6$, and $q=0.65$, the threshold is about 0.53. This algebraic check makes clear that the reversal is implied by a sufficiently strong bridging rule.' if bridging else 'With positive access and diversion, a fall in requests follows directly. Increasing simulation precision cannot turn this imposed mechanism into an empirical estimate.','CORRECTIONTEXT':'Under the substitution-only rule requests decline; adding sufficiently strong bridging can reverse that result.' if bridging else 'Under substitution-only rules human requests necessarily decline in expectation.'}
+for k,val in repl.items():tex=tex.replace(k,val)
+(p/'memo.tex').write_text(tex)
+print(f'Wrote {p}/memo.tex from saved results; four-page body plus references.')
