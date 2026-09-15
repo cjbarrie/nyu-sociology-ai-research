@@ -31,16 +31,19 @@ def link(x,y,label,path,size=21):
 def bullets(items,start=205,size=27,gap=99):
  for j,t in enumerate(items):para(70,start+j*gap,'• '+t,1125,size)
 def end(note):C.showPage();notes.append(note)
-# Image-only opening; retain the entire supplied screenshot without cropping.
+frame(1,'AI in sociological research');para(70,235,'Some ways I think we can use these tools<br/>in our own research',1110,38,'Serif');para(70,385,'Last year’s discussion focused on student responses and essays.<br/>Today I want to look at what happens inside a research project.',1110,27);link(70,605,'Open the demonstration files','/');end('0:00–1:00. Explain the change in focus from student writing to research. Do not make a model benchmark claim. The practical difference in this example is that the agent can search, inspect files, revise several related outputs and run software in one project. The browser deck is the primary presentation. Arrow keys navigate; use the slide buttons for evidence tables, CLI examples and actual records. Keep the PDF as backup.')
+# Opening images retain the deck frame and the complete supplied screenshot.
 from PIL import Image
 for filename,color in [('coxon.jpeg','#000000'),('amodei.png','#ffffff'),('trump.jpeg','#ffffff')]:
- path=P/'opening-images'/filename
- iw,ih=Image.open(path).size;scale=min(W/iw,H/ih);dw,dh=iw*scale,ih*scale
- C.setFillColor(HexColor(color));C.rect(0,0,W,H,fill=1,stroke=0)
- C.drawImage(str(path),(W-dw)/2,(H-dh)/2,width=dw,height=dh,mask='auto')
  slide_number+=1
- end('Opening aside: '+filename.split('.')[0].title()+'. User-supplied image, displayed without added claims or captions. Advance after the brief spoken introduction.')
-frame(1,'AI in sociological research');para(70,235,'Some ways I think we can use these tools<br/>in our own research',1110,38,'Serif');para(70,385,'Last year’s discussion focused on student responses and essays.<br/>Today I want to look at what happens inside a research project.',1110,27);link(70,605,'Open the demonstration files','/');end('0:00–1:00. Explain the change in focus from student writing to research. Do not make a model benchmark claim. The practical difference in this example is that the agent can search, inspect files, revise several related outputs and run software in one project. The browser deck is the primary presentation. Arrow keys navigate; use the slide buttons for evidence tables, CLI examples and actual records. Keep the PDF as backup.')
+ C.setFillColor(HexColor('#f8f6f1'));C.rect(0,0,W,H,fill=1,stroke=0)
+ text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(slide_number)+'/17',16,color='#555555')
+ C.setStrokeColor(HexColor('#cccccc'));C.line(70,H-66,1210,H-66)
+ path=P/'opening-images'/filename
+ iw,ih=Image.open(path).size;scale=min(1136/iw,556/ih);dw,dh=iw*scale,ih*scale
+ C.setFillColor(HexColor(color));C.setStrokeColor(HexColor('#cfc3de'));C.roundRect(70,55,1140,560,8,fill=1,stroke=1)
+ C.drawImage(str(path),70+(1140-dw)/2,55+(560-dh)/2,width=dw,height=dh,mask='auto')
+ end('Opening aside: '+filename.split('.')[0].title()+'. User-supplied image within the presentation frame, without added claims or captions.')
 def paper_shot(x,y,w,h,key,url):
  from PIL import Image
  path='public/artifacts/study-screenshots/'+key+'.png'
@@ -75,7 +78,7 @@ frame(9,'Two agents checked the proposal');bullets(['The source reviewer checked
 frame(10,'The resulting research proposal');para(70,204,'A short protocol with an evidence assessment, defined outcome,<br/>assignment scheme, analysis and draft diary questions.',1120,27);bullets(['Compare a standard chatbot offer with usual access.','Separately compare an added human-contact feature with the standard offer.','Retain non-users in assigned groups; missing diaries are not zero requests.'],start=328,size=24,gap=70);link(70,597,'Open the compiled PDF','/artifacts/study-protocol.pdf');link(465,597,'Open LaTeX','/artifacts/study-protocol.tex');link(715,597,'Open bibliography','/artifacts/references.bib');end('11:00–13:00. Open the ordinary PDF. Page one is the evidence assessment, page two design, page three estimands and analysis, page four the draft instrument. Show that the narrowed question survived into the equations and the wording. This is a proposal, not a completed experiment, and the diary is unvalidated. The original simulation is retained only in the archive. If demonstrating improper use, point out what would go wrong if one described the usage association as a causal effect, or the feature contrast as proof of the whole mechanism. No rhetorical slogan is needed.')
 # A 15-minute route through all 17 slides, including opening evidence.
 import re
-durations=[15,15,15,30,65,65,35,45,40,40,40,35,75,80,55,100,150]
+durations=[30,15,15,15,65,65,35,45,40,40,40,35,75,80,55,100,150]
 assert len(notes)==len(durations)==17
 elapsed=0
 for i,seconds in enumerate(durations):

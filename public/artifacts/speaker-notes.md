@@ -4,19 +4,19 @@
 
 ## Slide 1
 
-0:00–0:15. Opening aside: Coxon. User-supplied image, displayed without added claims or captions. Advance after the brief spoken introduction.
+0:00–0:30. Explain the change in focus from student writing to research. Do not make a model benchmark claim. The practical difference in this example is that the agent can search, inspect files, revise several related outputs and run software in one project. The browser deck is the primary presentation. Arrow keys navigate; use the slide buttons for evidence tables, CLI examples and actual records. Keep the PDF as backup.
 
 ## Slide 2
 
-0:15–0:30. Opening aside: Amodei. User-supplied image, displayed without added claims or captions. Advance after the brief spoken introduction.
+0:30–0:45. Opening aside: Coxon. User-supplied image within the presentation frame, without added claims or captions.
 
 ## Slide 3
 
-0:30–0:45. Opening aside: Trump. User-supplied image, displayed without added claims or captions. Advance after the brief spoken introduction.
+0:45–1:00. Opening aside: Amodei. User-supplied image within the presentation frame, without added claims or captions.
 
 ## Slide 4
 
-0:45–1:15. Explain the change in focus from student writing to research. Do not make a model benchmark claim. The practical difference in this example is that the agent can search, inspect files, revise several related outputs and run software in one project. The browser deck is the primary presentation. Arrow keys navigate; use the slide buttons for evidence tables, CLI examples and actual records. Keep the PDF as backup.
+1:00–1:15. Opening aside: Trump. User-supplied image within the presentation frame, without added claims or captions.
 
 ## Slide 5
 
