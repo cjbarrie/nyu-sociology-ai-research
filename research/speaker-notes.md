@@ -48,7 +48,7 @@
 
 ## Slide 12
 
-6:45–7:20. The headline is a cropped screenshot of the actual article. Use it to motivate a research question, rather than treating reporting as the evidence base. Define support-seeking as requests to existing friends and family. That is more specific than loneliness, socializing or feeling supported. Open the article briefly if useful, then move to the research folder.
+6:45–7:20. The headline is a cropped screenshot of the actual article. Use this question to introduce what an agent-assisted research workflow can do: find papers, compare findings, check citations and write a synthesis. We steer the search, question its interpretation and ask it to revise. This slide introduces the demonstration, not a full research design. Open the article briefly if useful, then move to the research folder.
 
 ## Slide 13
 
