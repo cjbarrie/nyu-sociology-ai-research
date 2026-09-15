@@ -15,6 +15,12 @@ Put the same folder inside your project's .claude/skills/ directory. Open Claude
 
 These are local project instructions. Web search, file access and LaTeX compilation depend on the tools and software available in that session. The skill itself supplies no database subscription or credentials.
 
+## Tool permissions (Claude Code example)
+
+The `allowed-tools` header pre-approves the listed tools for the turn in which this skill is invoked in Claude Code. Read, Grep and Glob inspect local files; WebSearch and WebFetch retrieve web material; Write and Edit produce the research files. The Bash patterns allow `pdftotext` and `pdfinfo` commands for PDF extraction and metadata inspection; those programs must already be installed. This is not unrestricted Bash access, and unlisted tools remain subject to the session's permission settings. The header does not install tools, provide subscriptions or bypass access restrictions. Other agent environments may handle permissions differently; use their own permission controls.
+
+Reference: [Claude Code skill permissions](https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill).
+
 ## Assignment to paste
 
 Assess whether AI chatbots reduce requests for emotional support or personal advice to existing friends and family. Conduct a bounded search for 8–12 primary studies. Record queries and exclusions, check the actual outcome instruments and publication versions, and write evidence.csv, search-log.md and references.bib. Before drafting a conclusion, ask me about any consequential ambiguity in the outcome. Then propose a study that measures actual outreach. Use separate source and methods reviewers, and have them cross-check each other's objections. Preserve their reports and questions. Do not invent my answers.

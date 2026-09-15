@@ -1,7 +1,14 @@
 ---
 name: literature-audit
 description: Conduct a bounded scoping review of an empirical social-science question, with a source-checked evidence table and bibliography. Use for literature mapping and claim checking; do not label the result a systematic review.
+allowed-tools: Read Grep Glob WebSearch WebFetch Write Edit Bash(pdftotext *) Bash(pdfinfo *)
 ---
+
+## Tool permissions (Claude Code example)
+
+The `allowed-tools` header pre-approves the listed tools for the turn in which this skill is invoked in Claude Code. Read, Grep and Glob inspect local files; WebSearch and WebFetch retrieve web material; Write and Edit produce the research files. The Bash patterns allow `pdftotext` and `pdfinfo` commands for PDF extraction and metadata inspection; those programs must already be installed. This is not unrestricted Bash access, and unlisted tools remain subject to the session's permission settings. The header does not install tools, provide subscriptions or bypass access restrictions. Other agent environments may handle permissions differently; use their own permission controls.
+
+Reference: [Claude Code skill permissions](https://code.claude.com/docs/en/skills#pre-approve-tools-for-a-skill).
 
 Start by specifying the population, exposure, comparison and outcome. If the outcome is ambiguous, ask one concrete question while searching the independent parts.
 
