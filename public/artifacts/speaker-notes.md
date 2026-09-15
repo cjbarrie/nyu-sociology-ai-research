@@ -56,7 +56,7 @@
 
 ## Slide 14
 
-8:35–9:55. Open the table and Fang v2. Enlarge the source. In the source check randomization, the socialization instrument and the revision date. The review records access failures as well as successes. An empty successful HTTP response was not a retrieved paper. The empirical point is that voluntary intensity did not inherit randomization. The source reviewer located LSNS-6; it is not a direct count of support requests. This is where researcher steering matters: the outcome definition changes which claims are usable.
+8:35–9:55. Show the products of the 8 September search: nine evidence records, retrieval log and bibliography. Each table record links to its primary source and names the source version and access limits. Fang v2 remains accessible through its record, rather than a disconnected slide-level link. The later source review shows what was checked and corrected. These outputs fed the proposal compiled on 9 September; the reusable skill codifies this earlier workflow.
 
 ## Slide 15
 
@@ -68,4 +68,4 @@
 
 ## Slide 17
 
-12:30–15:00. Open the ordinary PDF. Page one is the evidence assessment, page two design, page three estimands and analysis, page four the draft instrument. Show that the narrowed question survived into the equations and the wording. This is a proposal, not a completed experiment, and the diary is unvalidated. The original simulation is retained only in the archive. If demonstrating improper use, point out what would go wrong if one described the usage association as a causal effect, or the feature contrast as proof of the whole mechanism. No rhetorical slogan is needed.
+12:30–15:00. Show when the artifact was made and what produced it. The search was on 8 September, independent reviews and original compilation on 9 September. The workshop skill was written after the search. The paired exchange is scripted, not a transcript of Christopher. Open the production record for links to the evidence, reviews and timestamped compilation record. The provenance note was added on 15 September; no fresh search is claimed. This remains a proposed study, not empirical findings.
