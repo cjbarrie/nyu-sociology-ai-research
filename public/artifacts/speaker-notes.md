@@ -4,7 +4,7 @@
 
 ## Slide 1
 
-0:00–0:30. Explain the change in focus from student writing to research. Do not make a model benchmark claim. The practical difference in this example is that the agent can search, inspect files, revise several related outputs and run software in one project. The browser deck is the primary presentation. Arrow keys navigate; use the slide buttons for evidence tables, CLI examples and actual records. Keep the PDF as backup.
+0:00–0:30. Introduce the presenters and the topic briefly. Continue to the three opening images; the comparison with last year comes later in the presentation.
 
 ## Slide 2
 
@@ -68,4 +68,4 @@
 
 ## Slide 17
 
-12:30–15:00. Show when the artifact was made and what produced it. The search was on 8 September, independent reviews and original compilation on 9 September. The workshop skill was written after the search. The paired exchange is scripted, not a transcript of Christopher. Open the production record for links to the evidence, reviews and timestamped compilation record. The provenance note was added on 15 September; no fresh search is claimed. This remains a proposed study, not empirical findings.
+12:30–15:00. Open the compiled proposal and show the evidence assessment, proposed study and draft instrument. The production details remain available in the PDF and supporting files, rather than on this slide.
