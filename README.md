@@ -4,7 +4,7 @@
 
 **Co-presenters: start with [the editing guide](docs/CO_PRESENTER.md).** It includes setup, Claude prompts and the publication workflow.
 
-The primary presentation is a seventeen-scene browser deck with restrained typography, step-by-step workflow slides, expandable evidence tables, CLI walkthroughs and real retrieval playback. Research PDFs open normally. The PDF deck remains a backup; the ordinary file index is at /workshop/index.html.
+The primary presentation is a eighteen-scene browser deck with restrained typography, step-by-step workflow slides, expandable evidence tables, CLI walkthroughs and real retrieval playback. Research PDFs open normally. The PDF deck remains a backup; the ordinary file index is at /workshop/index.html.
 
 ## Fifteen-minute walkthrough
 
@@ -57,5 +57,5 @@ The archived /lab/ page compares two matched worlds with 24 fictional people and
 
 Run node scripts/test-mechanisms.mjs for deterministic event/accounting and boundary-case tests. The new model is public/lab/mechanisms.mjs; paired event data can be exported directly from the interface.
 
-Opening sources are recorded in research/opening/sources.json, with a separate BibTeX file. The four-stage agent-harness diagram is an illustrative teaching schematic, not live execution. The timed speaker notes cover all seventeen slides in fifteen minutes.
+Opening sources are recorded in research/opening/sources.json, with a separate BibTeX file. The four-stage agent-harness diagram is an illustrative teaching schematic, not live execution. The timed speaker notes cover all eighteen slides in fifteen minutes.
 

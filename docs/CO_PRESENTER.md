@@ -1,6 +1,6 @@
 # Editing this presentation
 
-The talk is a browser presentation with 17 slides. It ends with the research proposal. The phone app finale was removed. You can edit the presentation with Claude Code, Claude Desktop with folder access, Codex, or another assistant that can edit a local repository.
+The talk is a browser presentation with 18 slides. It ends with open questions about research norms. The phone app finale was removed. You can edit the presentation with Claude Code, Claude Desktop with folder access, Codex, or another assistant that can edit a local repository.
 
 ## First session
 

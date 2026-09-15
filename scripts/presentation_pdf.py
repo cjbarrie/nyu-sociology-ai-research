@@ -22,7 +22,7 @@ def frame(i,title):
  slide_number+=1
  i=slide_number
  C.setFillColor(HexColor('#f8f6f1'));C.rect(0,0,W,H,fill=1,stroke=0)
- text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(i)+'/17',16,color='#555555')
+ text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(i)+'/18',16,color='#555555')
  C.setStrokeColor(HexColor('#cccccc'));C.line(70,H-66,1210,H-66)
  text(70,135,title,40,'Serif');C.setStrokeColor(HexColor('#8c72a6'));C.setLineWidth(2);C.line(70,H-157,160,H-157);C.setLineWidth(1)
 def link(x,y,label,path,size=21):
@@ -37,7 +37,7 @@ from PIL import Image
 for filename,color in [('coxon.jpeg','#000000'),('amodei.png','#ffffff'),('trump.jpeg','#ffffff')]:
  slide_number+=1
  C.setFillColor(HexColor('#f8f6f1'));C.rect(0,0,W,H,fill=1,stroke=0)
- text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(slide_number)+'/17',16,color='#555555')
+ text(70,45,'Christopher Barrie and Bart Bonikowski · NYU Sociology',16,color='#555555');text(1130,45,str(slide_number)+'/18',16,color='#555555')
  C.setStrokeColor(HexColor('#cccccc'));C.line(70,H-66,1210,H-66)
  path=P/'opening-images'/filename
  iw,ih=Image.open(path).size;scale=min(1136/iw,556/ih);dw,dh=iw*scale,ih*scale
@@ -76,10 +76,15 @@ link(70,602,'Open evidence table','/workshop/evidence.html');link(365,602,'Open 
 frame(8,'Working through a measurement decision');text(70,205,'RESEARCHER',16,'Bold', '#555555');para(70,225,'“Could we compare the share of support needs that lead to a friend?”',1120,29);text(70,355,'AI COAUTHOR',16,'Bold','#555555');para(70,375,'“What if chatbot use changes what people report as a need?<br/>Then the denominator changes too. Could total requests over<br/>a fixed follow-up be the primary outcome?”',1120,28);link(70,604,'Open the full exchange','/workshop/coauthor.html');end('8:00–9:30. Open the scripted exchange. Read two or three turns, not the entire page. The researcher first proposes a mechanism, then clarifies requests rather than harm, then proposes a denominator. The AI raises selection and the researcher chooses a narrower protocol. The AI does not win an argument or dictate a specification. Explain the denominator issue in ordinary language: the set of situations being counted could itself change with treatment. Make clear that researcher turns are illustrative.')
 frame(9,'Two agents checked the proposal');bullets(['The source reviewer checked the claim against the paper.','The methods reviewer examined the outcome, comparison and analysis.','They then read each other’s objections: could chatbot use change which problems people report? If a prompt increases contact with friends, does that tell us why it worked?'],gap=104);link(70,600,'Open the actual reports and cross-checks','/workshop/reviews.html');end('9:30–11:00. Open the actual reports. Show the source locators and the methods reviewer’s questions. Then show each cross-check at the end of its report. These are actual separate Codex agents used during revision. Multiple agents can share a mistake, so the source and substantive question remain the test. Point to one open researcher decision: who is the target population? Do not answer it on Christopher’s behalf.')
 frame(10,'The research proposal');para(70,220,'A study protocol with an evidence assessment,<br/>estimands and a draft diary instrument.',1120,31);link(70,480,'Open the compiled PDF','/artifacts/study-protocol.pdf');link(490,480,'LaTeX source','/artifacts/study-protocol.tex');link(810,480,'Bibliography','/artifacts/references.bib');text(70,570,'Four pages plus references. A proposal, not a completed experiment.',21,color='#555555');text(70,605,'The instrument is unvalidated.',21,color='#555555');end('Open the compiled proposal and show the evidence assessment, proposed study and draft instrument. The production details remain available in the PDF and supporting files, rather than on this slide.')
-# A 15-minute route through all 17 slides, including opening evidence.
+frame(11,'What norms should we develop?')
+for y,title,question in [(212,'Influence on the researcher','Even when we steer, which suggestions become our starting assumptions?'),(339,'Reproducibility','Should we reproduce the code and results—or also the agent’s search and choices?'),(466,'Deep reading','What do we still need to read ourselves, beyond an agent’s summary?')]:
+ text(70,y,title,27,'Serif');para(70,y+23,question,1110,23)
+para(70,610,'What should we expect from ourselves, our coauthors and our students?',1120,24,'Serif')
+end('Introduce these as open questions, not demonstrated harms or agreed norms. Influence: useful suggestions can become starting assumptions; consider noting the original question and consequential changes. Reproducibility: distinguish rerunning final code, auditing decisions, and rerunning the agent. Reading: ask which central sources researchers must consult themselves. Leave this slide up for five minutes of discussion. Ask for one practice colleagues would expect of a student or coauthor and whether they would follow it themselves. Full suggested talking points: /artifacts/discussion-notes.md.')
+# A 15-minute route through all 18 slides, including opening evidence.
 import re
-durations=[30,15,15,15,65,65,35,45,40,40,40,35,75,80,55,100,150]
-assert len(notes)==len(durations)==17
+durations=[30,15,15,15,65,65,35,45,40,40,40,35,75,80,55,100,90,60]
+assert len(notes)==len(durations)==18
 elapsed=0
 for i,seconds in enumerate(durations):
  original=re.sub(r'^\d+:\d+–\d+:\d+(?:, then five minutes of discussion)?\.\s*','',notes[i])
@@ -88,5 +93,6 @@ for i,seconds in enumerate(durations):
 assert elapsed==900
 C.save()
 Path('research/speaker-notes.md').write_text('# Presenter notes\n\n15-minute walkthrough, followed by five minutes of discussion. Pre-open the opening readings, workshop index, evidence table and protocol PDF. The four opening slides take four minutes; each archetype then gets forty seconds. Links in the slides open the private hosted copies; offline users should use the local workshop index.\n\n'+'\n\n'.join('## Slide '+str(i+1)+'\n\n'+n for i,n in enumerate(notes)))
+with Path('research/speaker-notes.md').open('a') as f:f.write('\n\n---\n\n'+Path('research/discussion-notes.md').read_text())
 P.joinpath('speaker-notes.md').write_text(Path('research/speaker-notes.md').read_text())
-print('Created 17 PDF slides with direct links and timed notes.')
+print('Created 18 PDF slides with direct links and timed notes.')

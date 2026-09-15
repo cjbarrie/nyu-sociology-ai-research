@@ -2,7 +2,7 @@
 
 Read `docs/CO_PRESENTER.md` first. This is a 15-minute NYU Sociology faculty presentation, not a product pitch. Use ordinary academic language, avoid slogans, and preserve claim qualifications and source provenance.
 
-- Current deck: 17 slides, ending with the research proposal. Do not reintroduce the removed phone app or add a showstopper unless requested.
+- Current deck: 18 slides, ending with open questions for discussion. Do not reintroduce the removed phone app or add a showstopper unless requested.
 - Main browser source: app/page.tsx; opening slides: app/opening.tsx; style: app/globals.css.
 - When slide text or order changes, update scripts/presentation_pdf.py and regenerate the PDF and notes if dependencies are available. Report explicitly if not regenerated. Preserve the fifteen-minute timing total.
 - Separate actual execution recordings, scripted teaching dialogue, schematic diagrams and hypothetical results. Never invent authentic execution footage or study results.
