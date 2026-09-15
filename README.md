@@ -1,61 +1,85 @@
 # AI in sociological research — NYU Sociology
 
-[Live presentation](https://cjbarrie.github.io/nyu-sociology-ai-research/) · [Co-presenter editing guide](docs/CO_PRESENTER.md)
+**Christopher Barrie and Bart Bonikowski**
 
-**Co-presenters: start with [the editing guide](docs/CO_PRESENTER.md).** It includes setup, Claude prompts and the publication workflow.
+[Live presentation](https://cjbarrie.github.io/nyu-sociology-ai-research/) · [PDF slides](https://cjbarrie.github.io/nyu-sociology-ai-research/artifacts/presentation.pdf) · [Co-presenter editing guide](docs/CO_PRESENTER.md) · [Presenter notes](research/speaker-notes.md)
 
-The primary presentation is a eighteen-scene browser deck with restrained typography, step-by-step workflow slides, expandable evidence tables, CLI walkthroughs and real retrieval playback. Research PDFs open normally. The PDF deck remains a backup; the ordinary file index is at /workshop/index.html.
+The current presentation has **18 slides**, timed to **15 minutes plus five minutes of discussion**. It demonstrates agent-assisted research through the question: do AI chatbots reduce support-seeking from friends and family?
 
-## Fifteen-minute walkthrough
+## Current slide order
 
-The opening four minutes cover cognitive-offloading research, agent evaluations, and the 2025/2026 interface comparison. Readings and claim checks are at /workshop/opening.html. The date labels refer to our workshop focus, not invention dates.
+| Slides | Content |
+|---|---|
+| 1 | Title: “Some ways we can use these tools.” |
+| 2–4 | Coxon, Amodei and Trump images, inside the deck’s normal frame |
+| 5–8 | Cognitive offloading, research agents, the chat window and the agent environment |
+| 9–11 | Three working relationships: delegate, steer and collaborate with a challenging coauthor |
+| 12 | The chatbot and support-seeking research question |
+| 13 | Skill walkthrough: add the skill, give the assignment, run a script, inspect the files |
+| 14 | Search outputs: nine study records, retrieval record and bibliography |
+| 15 | Paired discussion of the research question |
+| 16 | Source and methods agents reviewing one another’s work |
+| 17 | Compiled research proposal, LaTeX and bibliography |
+| 18 | Discussion: influence on research questions, reproducibility and deep reading |
 
-1. Three working relationships: delegate a bounded task, guide consequential decisions, and work through an argument with a skeptical coauthor.
-2. Reporting motivates the question of chatbot use and support-seeking from friends and family.
-3. Open the workshop-authored literature-audit skill, show where it goes and what to type, then inspect the evidence and retrieval records.
-4. Open a scripted paired conversation and the actual independent source/methods reviews. Their provenance is clearly distinguished.
-5. Open the compiled study protocol and draft diary instrument, including estimands and limitations.
+Use the arrow keys to move, **N** for presenter notes and **F** for full screen. Slide 13 has four clickable steps. Research PDFs and source files open directly. The removed phone-app finale is not part of this repository.
 
-Timed notes: research/speaker-notes.md. The browser index links directly to each output. The study proposal is four pages plus references; no empirical results or validated questionnaire are claimed.
+## Materials for presenters
 
-## Provenance and limitations
+- [Research files](https://cjbarrie.github.io/nyu-sociology-ai-research/workshop/index.html)
+- [Evidence table](https://cjbarrie.github.io/nyu-sociology-ai-research/workshop/evidence.html)
+- [Skill example](research/skills/literature-audit/SKILL.md) and [setup instructions](research/workshop-howto.md)
+- [Source review](research/audit/source-audit.md) and [methods review](research/audit/methods-audit.md)
+- [Research proposal PDF](https://cjbarrie.github.io/nyu-sociology-ai-research/artifacts/study-protocol.pdf)
+- [Closing discussion talking points](research/discussion-notes.md)
+- [How the proposal was made](https://cjbarrie.github.io/nyu-sociology-ai-research/workshop/production.html)
+- [Offline presentation download](https://cjbarrie.github.io/nyu-sociology-ai-research/artifacts/local-presentation.zip)
 
-The initial bounded review was conducted 8 September 2026. The reusable skill and actual agent audits were created during revision on 9 September. The skill codifies the earlier procedure; the original review is not attributed to a recorded invocation of that new skill.
+The final slide asks what norms we should develop for ourselves, coauthors and students. Its reading question is: “How do we preserve sustained engagement with sources when AI mediates what we read?” Fuller discussion prompts and possible practices to debate are included in the presenter notes.
 
-Two separate Codex agents wrote research/audit/source-audit.md and methods-audit.md, then cross-checked each other. The reports are actual output. The researcher dialogue in coauthor-dialogue.md is scripted for teaching. Substantive questions in the protocol remain open.
+## What was executed, and what is illustrative
 
-A fresh local skill demonstration was attempted. The installed Codex CLI had a missing executable; Claude Code returned an expired OAuth session. No authentic skill-invocation recording is claimed. The original source-retrieval and model command recordings remain in research/recordings and are clearly labeled as command-output replays.
+The bounded literature search was conducted on **8 September 2026**. Separate source and methods agents reviewed and cross-checked the work on **9 September**, when the original proposal was compiled. Its production note was added on **15 September**; the literature search has not been refreshed. The proposal is four pages plus references, with no recruited participants, estimated effects or validated questionnaire.
 
-The Guardian image is a cropped screenshot of the headline from the linked article, captured 9 September 2026. It does not reproduce the article body. No confidential material or raw third-party papers is included in the delivery archive.
+The workshop-authored `literature-audit` skill codifies the earlier workflow; it did not generate the original review through a recorded invocation. Its `allowed-tools` header illustrates Claude Code permissions, including specific Bash PDF commands. Permission handling differs between agent environments.
 
-## Rebuild
+The Python-search command on slide 13 is an **illustrative example**. That script is not included or claimed to have run. The paired coauthor dialogue is scripted, rather than a transcript of Christopher’s statements. The source/methods reports and saved retrieval/compilation command records are actual outputs. Recordings replay command output with adjusted playback timing. The agent-harness diagram is a teaching schematic.
 
-- Browser development: `npm run dev`
-- Production: `npm run build`
-- Research proposal: `latexmk -pdf -cd research/protocol/memo.tex`
-- Workshop pages and copied outputs: `python scripts/revision_materials.py`
-- Slides and timed notes: `python scripts/presentation_pdf.py`
-- Archives: `python scripts/package_deliverables.py --local` after the production build
+Opening images were supplied for the presentation. Study screenshots, citations and publication versions are retained with the research materials. These excerpts and third-party materials are not presented as original work by the presenters.
 
-Python authoring dependencies: reportlab, pillow, matplotlib, numpy, pyyaml. LaTeX requires a standard TeX Live installation. The slide script uses Arial and Georgia from macOS. Browser runtime needs no AI API or external fonts.
+## Edit and preview
 
-## Offline use
+Start with [docs/CO_PRESENTER.md](docs/CO_PRESENTER.md), which includes a file map and prompts for Claude or another coding assistant. Assistants should also read [AGENTS.md](AGENTS.md); [CLAUDE.md](CLAUDE.md) points to the same instructions.
 
-Unzip local-presentation.zip, run `python3 serve.py`, then open http://127.0.0.1:8765. The index and all workshop outputs work locally. Primary-paper and official-documentation links need Internet. The bundled offline slide PDF uses local links for workshop outputs.
+Requires Node.js 22.13 or newer:
 
-## Archived virtual field study
+```sh
+npm ci
+npm run dev
+```
 
-The new simulation is a transparent design sandbox. Support availability affects outreach and uptake. At a zero causal effect, users can still appear to seek less support. ITT retains the randomized offer groups. It reports point estimates, known finite-population effects, and an optional distribution over 200 assignments. All data and rules are synthetic. Avatar appearance, motion and setting have no analytical meaning.
+Open the local address printed in the terminal. No AI API key is required to run the presentation. The main browser source is `app/page.tsx`; opening research slides are in `app/opening.tsx`; styles are in `app/globals.css`.
 
-Source: public/lab/model.mjs. Validation: node scripts/test-lab.mjs. The default assignment yields a users/non-users contrast of about −2.56 requests, ITT −0.12, and known offer effect zero. Across 1,000 assignments, mean ITT is approximately zero while the users contrast remains negative. Tests cover determinism, balanced randomization, noncompliance, potential outcomes, sign boundaries and CSV export.
+## Build and publish
 
-The neighborhood is AI-generated artwork. The small avatar icons use the operating system emoji font. No faculty likenesses or real participant records are represented.
+`npm run build` creates the static export. The GitHub Actions workflow builds pull requests and publishes changes to `main` through GitHub Pages. `scripts/github_pages.py` adapts resource paths and PDF links to the repository’s Pages address. Check the Actions deployment result before sharing an update.
 
-## Archived support-mechanism simulation
+The older private ChatGPT-hosted Site is a separate deployment and is not updated by GitHub pushes. The live GitHub Pages link above is the current presentation.
 
-The archived /lab/ page compares two matched worlds with 24 fictional people and 40 support concerns. Animated routes, episode narratives and three-stage playback show concern, support-seeking and follow-up. Presets compare substitution with chatbot-encouraged human contact. Measures distinguish requests, successful human responses, chatbot interactions and concerns with no response. All behavioral rules remain hypothetical and no relationship erosion is claimed. The earlier randomized-study sandbox remains at /lab/selection.html.
+Browser slides and PDF slides have separate sources. For PDF slides, install `reportlab`, `pillow` and `pypdf`, then run:
 
-Run node scripts/test-mechanisms.mjs for deterministic event/accounting and boundary-case tests. The new model is public/lab/mechanisms.mjs; paired event data can be exported directly from the interface.
+```sh
+python scripts/presentation_pdf.py
+```
 
-Opening sources are recorded in research/opening/sources.json, with a separate BibTeX file. The four-stage agent-harness diagram is an illustrative teaching schematic, not live execution. The timed speaker notes cover all eighteen slides in fifteen minutes.
+The PDF generator currently uses Arial and Georgia from macOS; configure equivalent installed font paths on other systems. It regenerates the PDF and timed notes, appending `research/discussion-notes.md`. Commit the generated files along with source changes.
 
+The research proposal requires TeX Live: `latexmk -pdf -cd research/protocol/memo.tex`. Copy the compiled PDF to `public/artifacts/study-protocol.pdf` and update its public LaTeX copy and preview if the proposal changes. `npm run build` does not regenerate PDFs.
+
+After rebuilding, `python scripts/package_deliverables.py --local` refreshes the research and offline archives. It requires `pypdf`. Run `scripts/revision_materials.py` only when intentionally regenerating its workshop outputs; inspect it first because it rewrites multiple files. Historical analysis scripts may additionally require matplotlib, numpy and pyyaml.
+
+## Offline use and archived work
+
+Unzip `local-presentation.zip`, run `python3 serve.py`, and open `http://127.0.0.1:8765`. Do not open the HTML using `file://`. External paper and documentation links still need Internet.
+
+Earlier hypothetical simulations remain under `public/lab/` and `research/` as archived development work; they are outside the current walkthrough and are not empirical findings. The phone diary app and its downloadable study server were removed. Do not restore those files through old archives.

@@ -11,3 +11,7 @@ Read `docs/CO_PRESENTER.md` first. This is a 15-minute NYU Sociology faculty pre
 - Run npm run build for browser changes. Do not edit dist/client as source. scripts/github_pages.py adapts the export for the repository URL at deployment.
 - Do not commit secrets, local participant data, node_modules, research/sources, or machine-specific caches. The removed app must not be reintroduced through archives.
 - Preserve existing design and scope. Do not regenerate the research corpus or introduce new dependencies for a small copy edit.
+
+- Current order: title first; framed images on slides 2–4; four-tab skill walkthrough on slide 13; proposal on slide 17; discussion on slide 18. The title subtitle is “Some ways we can use these tools.”
+- Keep production history in the supporting files and PDF, not on the proposal slide. The paired dialogue remains a teaching example even though its provenance is not repeated on the slide.
+- Extended discussion notes are authored in research/discussion-notes.md and appended by the PDF generator. Synchronize its downloadable copy.
