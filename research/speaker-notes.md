@@ -52,7 +52,7 @@
 
 ## Slide 13
 
-7:20–8:35. Open the how-to page. Click SKILL.md and show that it is a readable instruction file. Explain the project paths: .agents/skills in Codex, .claude/skills in Claude Code. Show the exact invocation and prompt. The skill codifies the original workflow; do not imply the original review was produced by a recorded run of this skill. The local Claude login expired and the Codex CLI binary was unavailable, so no authentic skill-invocation clip is included. Official setup links are on the page. Keep this explanation practical.
+7:20–8:35. Open the how-to page. Click SKILL.md and show that it is a readable instruction file. Explain the project paths: .agents/skills in Codex, .claude/skills in Claude Code. Show the exact invocation and prompt. Click Run a script to explain the illustrative workflow: an agent calls Python, the script queries a literature API and saves records, then the agent reads and checks the returned material. The command is a teaching example; that script is not included or claimed to have run. The skill codifies the original workflow; do not imply the original review was produced by a recorded run of this skill. The local Claude login expired and the Codex CLI binary was unavailable, so no authentic skill-invocation clip is included. Official setup links are on the page. Keep this explanation practical.
 
 ## Slide 14
 
